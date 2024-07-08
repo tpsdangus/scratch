@@ -1,0 +1,2610 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fbaf0272b51c89eb4769066a74209f37 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fbaf0272b51c89eb4769066a74209f37" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fbaf0272b51c89eb4769066a74209f37 = L.map(
+                "map_fbaf0272b51c89eb4769066a74209f37",
+                {
+                    center: [40.72391305875536, -73.79052091509332],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ea714f726a11531e02f06ed109ff53e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0ea714f726a11531e02f06ed109ff53e.addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var marker_07e42a6d7066d839c07c0264d68ab4fc = L.marker(
+                [40.72391305875536, -73.79052091509332],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_9d03f2e45a8fbceb232052648fb4b1d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07e42a6d7066d839c07c0264d68ab4fc.setIcon(icon_9d03f2e45a8fbceb232052648fb4b1d8);
+        
+    
+        var popup_2d03650a8d97aeae60db6eb2e8bae4c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_044da9e9d94d037869c9d7c5ab3fa3c5 = $(`<div id="html_044da9e9d94d037869c9d7c5ab3fa3c5" style="width: 100.0%; height: 100.0%;">Anchor Point<br>Latitude: 40.72391305875536<br>Longitude: -73.79052091509332</div>`)[0];
+                popup_2d03650a8d97aeae60db6eb2e8bae4c2.setContent(html_044da9e9d94d037869c9d7c5ab3fa3c5);
+            
+        
+
+        marker_07e42a6d7066d839c07c0264d68ab4fc.bindPopup(popup_2d03650a8d97aeae60db6eb2e8bae4c2)
+        ;
+
+        
+    
+    
+            var marker_874477c2cce6b5921f454d428aea4ff9 = L.marker(
+                [40.685007603325204, -73.80143985311295],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_330669726bab1214244e0022808ae8bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_874477c2cce6b5921f454d428aea4ff9.setIcon(icon_330669726bab1214244e0022808ae8bd);
+        
+    
+        var popup_09d20fbe2bcbe19a5627869bfba772db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00e7668a1840a71f8823d12a12dee756 = $(`<div id="html_00e7668a1840a71f8823d12a12dee756" style="width: 100.0%; height: 100.0%;">Time: 2024-06-01 09:38:26<br>Number: +19177498838<br>Duration: 104<br>Direction: Outgoing<br>Distance: 0.0 km<br>Distance from Anchor: 4.417824399215627 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.685007603325204,-73.80143985311295' target='_blank'>Google Maps</a></div>`)[0];
+                popup_09d20fbe2bcbe19a5627869bfba772db.setContent(html_00e7668a1840a71f8823d12a12dee756);
+            
+        
+
+        marker_874477c2cce6b5921f454d428aea4ff9.bindPopup(popup_09d20fbe2bcbe19a5627869bfba772db)
+        ;
+
+        
+    
+    
+            var marker_d9295bc193ba8f2a0c3dc714c16ec0cc = L.marker(
+                [40.76571863671619, -73.76853688955164],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_72171dd007f336bea3d32a92b42afab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d9295bc193ba8f2a0c3dc714c16ec0cc.setIcon(icon_72171dd007f336bea3d32a92b42afab8);
+        
+    
+        var popup_1a7c40b4ebad8afb0ce9a10f56902f4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83d50e88a8ae1df9516b93f229acc7b0 = $(`<div id="html_83d50e88a8ae1df9516b93f229acc7b0" style="width: 100.0%; height: 100.0%;">Time: 2024-06-01 14:06:05<br>Number: +16469256651<br>Duration: 144<br>Direction: Outgoing<br>Distance: 9.384011565642313 km<br>Distance from Anchor: 5.000000000000785 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.76571863671619,-73.76853688955164' target='_blank'>Google Maps</a></div>`)[0];
+                popup_1a7c40b4ebad8afb0ce9a10f56902f4d.setContent(html_83d50e88a8ae1df9516b93f229acc7b0);
+            
+        
+
+        marker_d9295bc193ba8f2a0c3dc714c16ec0cc.bindPopup(popup_1a7c40b4ebad8afb0ce9a10f56902f4d)
+        ;
+
+        
+    
+    
+            var marker_0ce745c6cb4ff7c8e05e20b11f26bf0c = L.marker(
+                [40.728959165282944, -73.79554355838718],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_3919e8cb0293ec59d93aee660fcd5bd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ce745c6cb4ff7c8e05e20b11f26bf0c.setIcon(icon_3919e8cb0293ec59d93aee660fcd5bd4);
+        
+    
+        var popup_2fdbb95759365034cae22b8fd9af6f67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_292937ef73630489a83bbc69395a53c3 = $(`<div id="html_292937ef73630489a83bbc69395a53c3" style="width: 100.0%; height: 100.0%;">Time: 2024-06-01 19:13:05<br>Number: +16464219574<br>Duration: 186<br>Direction: Outgoing<br>Distance: 4.676100647145207 km<br>Distance from Anchor: 0.7028920519868648 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.728959165282944,-73.79554355838718' target='_blank'>Google Maps</a></div>`)[0];
+                popup_2fdbb95759365034cae22b8fd9af6f67.setContent(html_292937ef73630489a83bbc69395a53c3);
+            
+        
+
+        marker_0ce745c6cb4ff7c8e05e20b11f26bf0c.bindPopup(popup_2fdbb95759365034cae22b8fd9af6f67)
+        ;
+
+        
+    
+    
+            var marker_e624796fa2234c9918b3282719f09285 = L.marker(
+                [40.685688655972825, -73.75925382988319],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_217f9b417b1cca846c7ff73105ab9bae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e624796fa2234c9918b3282719f09285.setIcon(icon_217f9b417b1cca846c7ff73105ab9bae);
+        
+    
+        var popup_5765f89b25a6f65a39fa7d893d004fef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85632ef404ef53aeee963fe850b9e451 = $(`<div id="html_85632ef404ef53aeee963fe850b9e451" style="width: 100.0%; height: 100.0%;">Time: 2024-06-02 00:08:10<br>Number: +16469318193<br>Duration: 88<br>Direction: Incoming<br>Distance: 5.700335754137924 km<br>Distance from Anchor: 5.000000000000522 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.685688655972825,-73.75925382988319' target='_blank'>Google Maps</a></div>`)[0];
+                popup_5765f89b25a6f65a39fa7d893d004fef.setContent(html_85632ef404ef53aeee963fe850b9e451);
+            
+        
+
+        marker_e624796fa2234c9918b3282719f09285.bindPopup(popup_5765f89b25a6f65a39fa7d893d004fef)
+        ;
+
+        
+    
+    
+            var marker_be3ad503dfe620ee404bd48d0655f74d = L.marker(
+                [40.709909966400964, -73.73504132332498],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_0173ffe0141621e54fbfa89b6a25ddc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be3ad503dfe620ee404bd48d0655f74d.setIcon(icon_0173ffe0141621e54fbfa89b6a25ddc8);
+        
+    
+        var popup_6d64bd5c9f0dfaff4aa0aa9933cfe015 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2c5ce574623112818bd483e41422861 = $(`<div id="html_e2c5ce574623112818bd483e41422861" style="width: 100.0%; height: 100.0%;">Time: 2024-06-02 13:55:08<br>Number: +19177498838<br>Duration: 66<br>Direction: Outgoing<br>Distance: 3.379703779070776 km<br>Distance from Anchor: 4.9388886217416585 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.709909966400964,-73.73504132332498' target='_blank'>Google Maps</a></div>`)[0];
+                popup_6d64bd5c9f0dfaff4aa0aa9933cfe015.setContent(html_e2c5ce574623112818bd483e41422861);
+            
+        
+
+        marker_be3ad503dfe620ee404bd48d0655f74d.bindPopup(popup_6d64bd5c9f0dfaff4aa0aa9933cfe015)
+        ;
+
+        
+    
+    
+            var marker_5beccac9ecd93ac5463c07918f0c38a7 = L.marker(
+                [40.71708074841546, -73.76701676253103],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_45456e29d4b0331f76d807ffb8a9c565 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5beccac9ecd93ac5463c07918f0c38a7.setIcon(icon_45456e29d4b0331f76d807ffb8a9c565);
+        
+    
+        var popup_e66671fe9f291719ce6d3673df47e7f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf602fe59e7acb0c198ac2b4da39da4a = $(`<div id="html_bf602fe59e7acb0c198ac2b4da39da4a" style="width: 100.0%; height: 100.0%;">Time: 2024-06-02 18:54:40<br>Number: +16477636097<br>Duration: 300<br>Direction: Outgoing<br>Distance: 2.8167761836943375 km<br>Distance from Anchor: 2.1258594322776108 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.71708074841546,-73.76701676253103' target='_blank'>Google Maps</a></div>`)[0];
+                popup_e66671fe9f291719ce6d3673df47e7f3.setContent(html_bf602fe59e7acb0c198ac2b4da39da4a);
+            
+        
+
+        marker_5beccac9ecd93ac5463c07918f0c38a7.bindPopup(popup_e66671fe9f291719ce6d3673df47e7f3)
+        ;
+
+        
+    
+    
+            var marker_174689fb47c860317dc7a51690964932 = L.marker(
+                [40.744345431758106, -73.79156983509215],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_b004f447b00a597979487cf5994345ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_174689fb47c860317dc7a51690964932.setIcon(icon_b004f447b00a597979487cf5994345ef);
+        
+    
+        var popup_25f004edcd8345af4a2642c83bb5b74d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0af8e53a0b3e4291f0bc8cbbcea52c79 = $(`<div id="html_0af8e53a0b3e4291f0bc8cbbcea52c79" style="width: 100.0%; height: 100.0%;">Time: 2024-06-03 09:51:31<br>Number: +19177498838<br>Duration: 55<br>Direction: Outgoing<br>Distance: 3.6700357462802926 km<br>Distance from Anchor: 2.2707193005747657 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.744345431758106,-73.79156983509215' target='_blank'>Google Maps</a></div>`)[0];
+                popup_25f004edcd8345af4a2642c83bb5b74d.setContent(html_0af8e53a0b3e4291f0bc8cbbcea52c79);
+            
+        
+
+        marker_174689fb47c860317dc7a51690964932.bindPopup(popup_25f004edcd8345af4a2642c83bb5b74d)
+        ;
+
+        
+    
+    
+            var marker_c0e6cbaa92209d78e3e9053a86412775 = L.marker(
+                [40.68099545365947, -73.8291278244699],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_28bb448ac3cad0da50239a472719ab5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0e6cbaa92209d78e3e9053a86412775.setIcon(icon_28bb448ac3cad0da50239a472719ab5b);
+        
+    
+        var popup_5acebf6d1855ddd780c8700196948036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee4a6ba7519b678aa3e1701aec353a1d = $(`<div id="html_ee4a6ba7519b678aa3e1701aec353a1d" style="width: 100.0%; height: 100.0%;">Time: 2024-06-03 15:56:10<br>Number: +13322539904<br>Duration: 60<br>Direction: Outgoing<br>Distance: 7.717635908412303 km<br>Distance from Anchor: 5.775779030059465 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.68099545365947,-73.8291278244699' target='_blank'>Google Maps</a></div>`)[0];
+                popup_5acebf6d1855ddd780c8700196948036.setContent(html_ee4a6ba7519b678aa3e1701aec353a1d);
+            
+        
+
+        marker_c0e6cbaa92209d78e3e9053a86412775.bindPopup(popup_5acebf6d1855ddd780c8700196948036)
+        ;
+
+        
+    
+    
+            var marker_99cd5069e8026ca37ebad06b67ba8149 = L.marker(
+                [40.670552370453144, -73.51189395064164],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_cbd4d143bd2ee6a73c757107ad17111c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99cd5069e8026ca37ebad06b67ba8149.setIcon(icon_cbd4d143bd2ee6a73c757107ad17111c);
+        
+    
+        var popup_5ace2c81060fc9ef07921bb0f4b8aa25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5613d67bf6a2ddaa9089699fa148b9b8 = $(`<div id="html_5613d67bf6a2ddaa9089699fa148b9b8" style="width: 100.0%; height: 100.0%;">Time: 2024-06-03 20:43:16<br>Number: +16469318193<br>Duration: 142<br>Direction: Incoming<br>Distance: 26.845937467359313 km<br>Distance from Anchor: 24.283336892504686 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.670552370453144,-73.51189395064164' target='_blank'>Google Maps</a></div>`)[0];
+                popup_5ace2c81060fc9ef07921bb0f4b8aa25.setContent(html_5613d67bf6a2ddaa9089699fa148b9b8);
+            
+        
+
+        marker_99cd5069e8026ca37ebad06b67ba8149.bindPopup(popup_5ace2c81060fc9ef07921bb0f4b8aa25)
+        ;
+
+        
+    
+    
+            var marker_748c6a334f941fed05c7d3f054bbbf33 = L.marker(
+                [40.7237890941042, -73.79032707801875],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_ee2f5bd39611c580dba1d7e2bda8cabb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_748c6a334f941fed05c7d3f054bbbf33.setIcon(icon_ee2f5bd39611c580dba1d7e2bda8cabb);
+        
+    
+        var popup_e43b94b3aefc8f4c191b503143b55a52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9744d0193f463ed84385d020df6b45e6 = $(`<div id="html_9744d0193f463ed84385d020df6b45e6" style="width: 100.0%; height: 100.0%;">Time: 2024-06-03 21:41:11<br>Number: +16469318193<br>Duration: 200<br>Direction: Incoming<br>Distance: 24.264113022186617 km<br>Distance from Anchor: 0.021393731186812415 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.7237890941042,-73.79032707801875' target='_blank'>Google Maps</a></div>`)[0];
+                popup_e43b94b3aefc8f4c191b503143b55a52.setContent(html_9744d0193f463ed84385d020df6b45e6);
+            
+        
+
+        marker_748c6a334f941fed05c7d3f054bbbf33.bindPopup(popup_e43b94b3aefc8f4c191b503143b55a52)
+        ;
+
+        
+    
+    
+            var marker_719a91ff5ba84c1f285751f4c2384b22 = L.marker(
+                [40.710151096159905, -73.79904451383896],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_9265857a64dcfa44c64dddb6ab51adcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_719a91ff5ba84c1f285751f4c2384b22.setIcon(icon_9265857a64dcfa44c64dddb6ab51adcb);
+        
+    
+        var popup_c0e8211efbe316ff0054ea6d4631f21c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ae90d85bd81111b23c15ee5da51191e = $(`<div id="html_7ae90d85bd81111b23c15ee5da51191e" style="width: 100.0%; height: 100.0%;">Time: 2024-06-04 02:12:32<br>Number: +16469256651<br>Duration: 270<br>Direction: Outgoing<br>Distance: 1.6840969223619442 km<br>Distance from Anchor: 1.6894404072126958 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.710151096159905,-73.79904451383896' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c0e8211efbe316ff0054ea6d4631f21c.setContent(html_7ae90d85bd81111b23c15ee5da51191e);
+            
+        
+
+        marker_719a91ff5ba84c1f285751f4c2384b22.bindPopup(popup_c0e8211efbe316ff0054ea6d4631f21c)
+        ;
+
+        
+    
+    
+            var marker_39d226557e313f10489f1e6b6db19867 = L.marker(
+                [40.76985562963251, -73.87054713179229],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_96bb7cd99cb9c4fedc5506080b5f21c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39d226557e313f10489f1e6b6db19867.setIcon(icon_96bb7cd99cb9c4fedc5506080b5f21c4);
+        
+    
+        var popup_e5534ce7be60e21962f2edf6a69e7a60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3a21d9ce5bfff75fcc9c93bf45eef61 = $(`<div id="html_f3a21d9ce5bfff75fcc9c93bf45eef61" style="width: 100.0%; height: 100.0%;">Time: 2024-06-04 06:06:49<br>Number: +16469318193<br>Duration: 60<br>Direction: Incoming<br>Distance: 8.968479420705462 km<br>Distance from Anchor: 8.468136199893598 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.76985562963251,-73.87054713179229' target='_blank'>Google Maps</a></div>`)[0];
+                popup_e5534ce7be60e21962f2edf6a69e7a60.setContent(html_f3a21d9ce5bfff75fcc9c93bf45eef61);
+            
+        
+
+        marker_39d226557e313f10489f1e6b6db19867.bindPopup(popup_e5534ce7be60e21962f2edf6a69e7a60)
+        ;
+
+        
+    
+    
+            var marker_58fb0d7e4ab6fe2bdcc7dde7b47f95ec = L.marker(
+                [40.76387321328064, -73.8177997896232],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_d57201adab86e677c8c7dc08e48b1089 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58fb0d7e4ab6fe2bdcc7dde7b47f95ec.setIcon(icon_d57201adab86e677c8c7dc08e48b1089);
+        
+    
+        var popup_5689ffd6450dffe8c3c2cc51ab10565d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_584e99770943ef29f8d1ab209a30a2cc = $(`<div id="html_584e99770943ef29f8d1ab209a30a2cc" style="width: 100.0%; height: 100.0%;">Time: 2024-06-04 11:48:12<br>Number: +19177498838<br>Duration: 111<br>Direction: Outgoing<br>Distance: 4.502786211610532 km<br>Distance from Anchor: 4.999999999999954 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.76387321328064,-73.8177997896232' target='_blank'>Google Maps</a></div>`)[0];
+                popup_5689ffd6450dffe8c3c2cc51ab10565d.setContent(html_584e99770943ef29f8d1ab209a30a2cc);
+            
+        
+
+        marker_58fb0d7e4ab6fe2bdcc7dde7b47f95ec.bindPopup(popup_5689ffd6450dffe8c3c2cc51ab10565d)
+        ;
+
+        
+    
+    
+            var marker_55869a5aeb7492680359c8d4e1d1c2db = L.marker(
+                [40.72360473652008, -73.78176987934974],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_bdfc8170e1a6c9e89317657ebe02911a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55869a5aeb7492680359c8d4e1d1c2db.setIcon(icon_bdfc8170e1a6c9e89317657ebe02911a);
+        
+    
+        var popup_8e10a454f733f5dcdfe267f685dff4e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774e61895cd2deae7a7993b5077be973 = $(`<div id="html_774e61895cd2deae7a7993b5077be973" style="width: 100.0%; height: 100.0%;">Time: 2024-06-04 11:54:39<br>Number: +19177498838<br>Duration: 300<br>Direction: Outgoing<br>Distance: 5.408989282045459 km<br>Distance from Anchor: 0.7401277641667412 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72360473652008,-73.78176987934974' target='_blank'>Google Maps</a></div>`)[0];
+                popup_8e10a454f733f5dcdfe267f685dff4e3.setContent(html_774e61895cd2deae7a7993b5077be973);
+            
+        
+
+        marker_55869a5aeb7492680359c8d4e1d1c2db.bindPopup(popup_8e10a454f733f5dcdfe267f685dff4e3)
+        ;
+
+        
+    
+    
+            var marker_cc0a0058baf6b196c664d1d73bbed1e0 = L.marker(
+                [40.73610226812763, -73.69338611511944],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_9724c55eaf18f7447408f22eacb45a4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc0a0058baf6b196c664d1d73bbed1e0.setIcon(icon_9724c55eaf18f7447408f22eacb45a4c);
+        
+    
+        var popup_c9116ca2426046a62115008db3e47263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd604df89885f348ad2250f7f99b75dd = $(`<div id="html_cd604df89885f348ad2250f7f99b75dd" style="width: 100.0%; height: 100.0%;">Time: 2024-06-04 16:46:31<br>Number: +16477636097<br>Duration: 142<br>Direction: Outgoing<br>Distance: 7.594349698756232 km<br>Distance from Anchor: 8.316605172744195 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73610226812763,-73.69338611511944' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c9116ca2426046a62115008db3e47263.setContent(html_cd604df89885f348ad2250f7f99b75dd);
+            
+        
+
+        marker_cc0a0058baf6b196c664d1d73bbed1e0.bindPopup(popup_c9116ca2426046a62115008db3e47263)
+        ;
+
+        
+    
+    
+            var marker_436280a9ee9807390d446efd04b3da54 = L.marker(
+                [40.72501244913139, -73.80046266021967],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_73e1c1a6785ee41ea74d06e62e7be1de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_436280a9ee9807390d446efd04b3da54.setIcon(icon_73e1c1a6785ee41ea74d06e62e7be1de);
+        
+    
+        var popup_dce35aa55b38d2799c3c96c0830e5514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_879f03689206d8484c759efe0b0b0b12 = $(`<div id="html_879f03689206d8484c759efe0b0b0b12" style="width: 100.0%; height: 100.0%;">Time: 2024-06-05 01:06:39<br>Number: +16469318193<br>Duration: 229<br>Direction: Incoming<br>Distance: 9.128939168638464 km<br>Distance from Anchor: 0.8487505901006283 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72501244913139,-73.80046266021967' target='_blank'>Google Maps</a></div>`)[0];
+                popup_dce35aa55b38d2799c3c96c0830e5514.setContent(html_879f03689206d8484c759efe0b0b0b12);
+            
+        
+
+        marker_436280a9ee9807390d446efd04b3da54.bindPopup(popup_dce35aa55b38d2799c3c96c0830e5514)
+        ;
+
+        
+    
+    
+            var marker_a011b916bfea3720b693c763dfc5d408 = L.marker(
+                [40.707399995405865, -73.81244512421269],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_52145808e7f4676b0f2d2982494ec379 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a011b916bfea3720b693c763dfc5d408.setIcon(icon_52145808e7f4676b0f2d2982494ec379);
+        
+    
+        var popup_e29379f4ed99aa3138be6203b616c9f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b252c632df6c72c5145a363a786b54ad = $(`<div id="html_b252c632df6c72c5145a363a786b54ad" style="width: 100.0%; height: 100.0%;">Time: 2024-06-05 07:28:40<br>Number: +16477636097<br>Duration: 201<br>Direction: Outgoing<br>Distance: 2.2023541749558015 km<br>Distance from Anchor: 2.6066069927836293 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.707399995405865,-73.81244512421269' target='_blank'>Google Maps</a></div>`)[0];
+                popup_e29379f4ed99aa3138be6203b616c9f0.setContent(html_b252c632df6c72c5145a363a786b54ad);
+            
+        
+
+        marker_a011b916bfea3720b693c763dfc5d408.bindPopup(popup_e29379f4ed99aa3138be6203b616c9f0)
+        ;
+
+        
+    
+    
+            var marker_9ccba39dd5c119f08e5aad9926c94237 = L.marker(
+                [40.714650956038945, -73.78525083309597],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_4ddb12cc881fa34e9ea60b775f07f9e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ccba39dd5c119f08e5aad9926c94237.setIcon(icon_4ddb12cc881fa34e9ea60b775f07f9e6);
+        
+    
+        var popup_52c7af74a212bdc6cff8b29f59571d56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e0e97153373c60a01fe79ade28e0efc = $(`<div id="html_6e0e97153373c60a01fe79ade28e0efc" style="width: 100.0%; height: 100.0%;">Time: 2024-06-05 22:00:39<br>Number: +16477636097<br>Duration: 109<br>Direction: Outgoing<br>Distance: 2.434949693458817 km<br>Distance from Anchor: 1.1207897388433519 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.714650956038945,-73.78525083309597' target='_blank'>Google Maps</a></div>`)[0];
+                popup_52c7af74a212bdc6cff8b29f59571d56.setContent(html_6e0e97153373c60a01fe79ade28e0efc);
+            
+        
+
+        marker_9ccba39dd5c119f08e5aad9926c94237.bindPopup(popup_52c7af74a212bdc6cff8b29f59571d56)
+        ;
+
+        
+    
+    
+            var marker_c41aa7291526b8a9a0de6428585ff0bb = L.marker(
+                [40.59930190123212, -73.69541815592676],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_28ed6dfb2880073ad1969252095e2204 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c41aa7291526b8a9a0de6428585ff0bb.setIcon(icon_28ed6dfb2880073ad1969252095e2204);
+        
+    
+        var popup_f3a054e436bad556a9e9b1963eb82041 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91aa2cead980a8530b9edadd8cfd84cc = $(`<div id="html_91aa2cead980a8530b9edadd8cfd84cc" style="width: 100.0%; height: 100.0%;">Time: 2024-06-06 04:51:01<br>Number: +16477636097<br>Duration: 282<br>Direction: Outgoing<br>Distance: 14.892682960010132 km<br>Distance from Anchor: 16.00503441825314 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.59930190123212,-73.69541815592676' target='_blank'>Google Maps</a></div>`)[0];
+                popup_f3a054e436bad556a9e9b1963eb82041.setContent(html_91aa2cead980a8530b9edadd8cfd84cc);
+            
+        
+
+        marker_c41aa7291526b8a9a0de6428585ff0bb.bindPopup(popup_f3a054e436bad556a9e9b1963eb82041)
+        ;
+
+        
+    
+    
+            var marker_74abca111eaad661733fa6510d1d3967 = L.marker(
+                [40.73443249830712, -73.75072423682434],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_71e7de680b49496d8e8620d8c03882bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_74abca111eaad661733fa6510d1d3967.setIcon(icon_71e7de680b49496d8e8620d8c03882bf);
+        
+    
+        var popup_b5cf02c7dfded60b4c5f1dc232e6febe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d23462384c1948eac383c2d0aa7f9dd = $(`<div id="html_4d23462384c1948eac383c2d0aa7f9dd" style="width: 100.0%; height: 100.0%;">Time: 2024-06-07 12:12:14<br>Number: +16469256651<br>Duration: 214<br>Direction: Outgoing<br>Distance: 15.717739743266364 km<br>Distance from Anchor: 3.559136703053828 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73443249830712,-73.75072423682434' target='_blank'>Google Maps</a></div>`)[0];
+                popup_b5cf02c7dfded60b4c5f1dc232e6febe.setContent(html_4d23462384c1948eac383c2d0aa7f9dd);
+            
+        
+
+        marker_74abca111eaad661733fa6510d1d3967.bindPopup(popup_b5cf02c7dfded60b4c5f1dc232e6febe)
+        ;
+
+        
+    
+    
+            var marker_e7e6192022dd47e507b2222810ef3175 = L.marker(
+                [40.647767523917786, -73.91906288178156],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_452d5726fe99290eaf01cb9e0cb08452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e7e6192022dd47e507b2222810ef3175.setIcon(icon_452d5726fe99290eaf01cb9e0cb08452);
+        
+    
+        var popup_af1bd504f4cb5abb6cefd9b2e82412db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c2e887e4481100e4060deae6985d114 = $(`<div id="html_9c2e887e4481100e4060deae6985d114" style="width: 100.0%; height: 100.0%;">Time: 2024-06-07 19:40:36<br>Number: +19177498838<br>Duration: 123<br>Direction: Outgoing<br>Distance: 17.178137117678972 km<br>Distance from Anchor: 13.768526908866772 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.647767523917786,-73.91906288178156' target='_blank'>Google Maps</a></div>`)[0];
+                popup_af1bd504f4cb5abb6cefd9b2e82412db.setContent(html_9c2e887e4481100e4060deae6985d114);
+            
+        
+
+        marker_e7e6192022dd47e507b2222810ef3175.bindPopup(popup_af1bd504f4cb5abb6cefd9b2e82412db)
+        ;
+
+        
+    
+    
+            var marker_d7084357fdef55e216cd67864311ebd6 = L.marker(
+                [40.71030968031406, -73.84528117677002],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_9f1e1e8ba9cbed49cfb4d2522a4d8b87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7084357fdef55e216cd67864311ebd6.setIcon(icon_9f1e1e8ba9cbed49cfb4d2522a4d8b87);
+        
+    
+        var popup_0c1a90debe3a955c1703c3c4a7b808b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f4bd2476921a7f2f02c0ed2ac0b91cd = $(`<div id="html_9f4bd2476921a7f2f02c0ed2ac0b91cd" style="width: 100.0%; height: 100.0%;">Time: 2024-06-07 22:05:51<br>Number: +16469318193<br>Duration: 157<br>Direction: Incoming<br>Distance: 9.335072885795938 km<br>Distance from Anchor: 4.867266273775897 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.71030968031406,-73.84528117677002' target='_blank'>Google Maps</a></div>`)[0];
+                popup_0c1a90debe3a955c1703c3c4a7b808b0.setContent(html_9f4bd2476921a7f2f02c0ed2ac0b91cd);
+            
+        
+
+        marker_d7084357fdef55e216cd67864311ebd6.bindPopup(popup_0c1a90debe3a955c1703c3c4a7b808b0)
+        ;
+
+        
+    
+    
+            var marker_44b5a1f18f7f0bb63648f2f9ae31464b = L.marker(
+                [40.69208941772536, -73.80819780274676],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_9988af8e6a7813325d6b1e235b06e4cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44b5a1f18f7f0bb63648f2f9ae31464b.setIcon(icon_9988af8e6a7813325d6b1e235b06e4cb);
+        
+    
+        var popup_c4aa89cb519e2a0e0a3937fa7b323c21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eabedd95e1872ac77e31788e46a568f1 = $(`<div id="html_eabedd95e1872ac77e31788e46a568f1" style="width: 100.0%; height: 100.0%;">Time: 2024-06-08 01:09:50<br>Number: +13322539904<br>Duration: 31<br>Direction: Outgoing<br>Distance: 3.7304430663235753 km<br>Distance from Anchor: 3.8367030471910715 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.69208941772536,-73.80819780274676' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c4aa89cb519e2a0e0a3937fa7b323c21.setContent(html_eabedd95e1872ac77e31788e46a568f1);
+            
+        
+
+        marker_44b5a1f18f7f0bb63648f2f9ae31464b.bindPopup(popup_c4aa89cb519e2a0e0a3937fa7b323c21)
+        ;
+
+        
+    
+    
+            var marker_a7213dedb2c58c205f23f6558562bd44 = L.marker(
+                [40.73688882984641, -73.75845790731972],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_fb0f0b6cf0ef1408f4fd04ef438972b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7213dedb2c58c205f23f6558562bd44.setIcon(icon_fb0f0b6cf0ef1408f4fd04ef438972b3);
+        
+    
+        var popup_01f33a6bbb1f524e07eba387a0e61716 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92bfa307d8cb7c2e16619d3bc5004bfe = $(`<div id="html_92bfa307d8cb7c2e16619d3bc5004bfe" style="width: 100.0%; height: 100.0%;">Time: 2024-06-08 23:27:55<br>Number: +16477636097<br>Duration: 61<br>Direction: Outgoing<br>Distance: 6.512592955588796 km<br>Distance from Anchor: 3.0680237590864174 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73688882984641,-73.75845790731972' target='_blank'>Google Maps</a></div>`)[0];
+                popup_01f33a6bbb1f524e07eba387a0e61716.setContent(html_92bfa307d8cb7c2e16619d3bc5004bfe);
+            
+        
+
+        marker_a7213dedb2c58c205f23f6558562bd44.bindPopup(popup_01f33a6bbb1f524e07eba387a0e61716)
+        ;
+
+        
+    
+    
+            var marker_ac6cc7bd753788b9cc4dbfe77952cbe2 = L.marker(
+                [40.740663169600694, -73.77460097431391],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_1c96894c6c7cc5e12c48b6452d7a3644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac6cc7bd753788b9cc4dbfe77952cbe2.setIcon(icon_1c96894c6c7cc5e12c48b6452d7a3644);
+        
+    
+        var popup_df105f8005c4a382c9ae9286291a7166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_544bed929ef6508116986b9e73ac7a10 = $(`<div id="html_544bed929ef6508116986b9e73ac7a10" style="width: 100.0%; height: 100.0%;">Time: 2024-06-09 00:32:32<br>Number: +16477636097<br>Duration: 99<br>Direction: Outgoing<br>Distance: 1.4265126667494576 km<br>Distance from Anchor: 2.2953138480013457 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.740663169600694,-73.77460097431391' target='_blank'>Google Maps</a></div>`)[0];
+                popup_df105f8005c4a382c9ae9286291a7166.setContent(html_544bed929ef6508116986b9e73ac7a10);
+            
+        
+
+        marker_ac6cc7bd753788b9cc4dbfe77952cbe2.bindPopup(popup_df105f8005c4a382c9ae9286291a7166)
+        ;
+
+        
+    
+    
+            var marker_d8fbe2891c44a42ad5f4da00df701cec = L.marker(
+                [40.73200137232371, -73.84874361100458],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_46afc190c43c81f7a428f0fcd10efa30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8fbe2891c44a42ad5f4da00df701cec.setIcon(icon_46afc190c43c81f7a428f0fcd10efa30);
+        
+    
+        var popup_c8a22771c4370aced7015c5310b8b9ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f173e00d31e0e51aead2ad2bf794d06c = $(`<div id="html_f173e00d31e0e51aead2ad2bf794d06c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-09 16:43:30<br>Number: +16469318193<br>Duration: 132<br>Direction: Incoming<br>Distance: 6.336232173141863 km<br>Distance from Anchor: 5.000000000000244 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73200137232371,-73.84874361100458' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c8a22771c4370aced7015c5310b8b9ec.setContent(html_f173e00d31e0e51aead2ad2bf794d06c);
+            
+        
+
+        marker_d8fbe2891c44a42ad5f4da00df701cec.bindPopup(popup_c8a22771c4370aced7015c5310b8b9ec)
+        ;
+
+        
+    
+    
+            var marker_67fa7b79964c939f5a409c2cbff36f8c = L.marker(
+                [40.721886303583325, -73.79926312396367],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_895ac79aa906eec1d242518ce09cce83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_67fa7b79964c939f5a409c2cbff36f8c.setIcon(icon_895ac79aa906eec1d242518ce09cce83);
+        
+    
+        var popup_cd5ad95f7a9512cbba13489dd3694e88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f8f746c17eaf30c4ba7b6d2b2ae9e76 = $(`<div id="html_2f8f746c17eaf30c4ba7b6d2b2ae9e76" style="width: 100.0%; height: 100.0%;">Time: 2024-06-09 19:57:39<br>Number: +19177498838<br>Duration: 156<br>Direction: Outgoing<br>Distance: 4.328470042871397 km<br>Distance from Anchor: 0.7721297847189214 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.721886303583325,-73.79926312396367' target='_blank'>Google Maps</a></div>`)[0];
+                popup_cd5ad95f7a9512cbba13489dd3694e88.setContent(html_2f8f746c17eaf30c4ba7b6d2b2ae9e76);
+            
+        
+
+        marker_67fa7b79964c939f5a409c2cbff36f8c.bindPopup(popup_cd5ad95f7a9512cbba13489dd3694e88)
+        ;
+
+        
+    
+    
+            var marker_7ce56607aad759592ba78adaed135309 = L.marker(
+                [40.772310225695854, -73.82939513929198],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_b4cf09bad9525b6452d9f0549b9d9944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ce56607aad759592ba78adaed135309.setIcon(icon_b4cf09bad9525b6452d9f0549b9d9944);
+        
+    
+        var popup_c71ec22f91cae11a4a1564c382a515a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e568d11db46595595bbe13a626e97ea = $(`<div id="html_9e568d11db46595595bbe13a626e97ea" style="width: 100.0%; height: 100.0%;">Time: 2024-06-10 07:30:24<br>Number: +16464219574<br>Duration: 117<br>Direction: Outgoing<br>Distance: 6.15067916367517 km<br>Distance from Anchor: 6.297905824077406 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.772310225695854,-73.82939513929198' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c71ec22f91cae11a4a1564c382a515a0.setContent(html_9e568d11db46595595bbe13a626e97ea);
+            
+        
+
+        marker_7ce56607aad759592ba78adaed135309.bindPopup(popup_c71ec22f91cae11a4a1564c382a515a0)
+        ;
+
+        
+    
+    
+            var marker_d34aa3cd2e69d531a858c1cae23b1b12 = L.marker(
+                [40.729931435541424, -73.80569961056968],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_7c64385b46bd006fa85329b56872ef45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d34aa3cd2e69d531a858c1cae23b1b12.setIcon(icon_7c64385b46bd006fa85329b56872ef45);
+        
+    
+        var popup_724ecce23380ca2f6510f18323ba3c80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65bae0caff8f50ffb933041f9013744b = $(`<div id="html_65bae0caff8f50ffb933041f9013744b" style="width: 100.0%; height: 100.0%;">Time: 2024-06-10 11:47:14<br>Number: +13322539904<br>Duration: 82<br>Direction: Outgoing<br>Distance: 5.113908381694618 km<br>Distance from Anchor: 1.446032220046065 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.729931435541424,-73.80569961056968' target='_blank'>Google Maps</a></div>`)[0];
+                popup_724ecce23380ca2f6510f18323ba3c80.setContent(html_65bae0caff8f50ffb933041f9013744b);
+            
+        
+
+        marker_d34aa3cd2e69d531a858c1cae23b1b12.bindPopup(popup_724ecce23380ca2f6510f18323ba3c80)
+        ;
+
+        
+    
+    
+            var marker_3a89382bb523496be63f8336dbbdb6f9 = L.marker(
+                [40.73657156029489, -73.78619795496022],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_5810f7db623ec0646a933086e8292559 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a89382bb523496be63f8336dbbdb6f9.setIcon(icon_5810f7db623ec0646a933086e8292559);
+        
+    
+        var popup_15b02f9b703343b86b561203219a49bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ff253f6e740e82fc9bc4507869ddf2 = $(`<div id="html_f5ff253f6e740e82fc9bc4507869ddf2" style="width: 100.0%; height: 100.0%;">Time: 2024-06-11 00:27:46<br>Number: +13322539904<br>Duration: 135<br>Direction: Outgoing<br>Distance: 1.8048716785891703 km<br>Distance from Anchor: 1.452372546839464 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73657156029489,-73.78619795496022' target='_blank'>Google Maps</a></div>`)[0];
+                popup_15b02f9b703343b86b561203219a49bb.setContent(html_f5ff253f6e740e82fc9bc4507869ddf2);
+            
+        
+
+        marker_3a89382bb523496be63f8336dbbdb6f9.bindPopup(popup_15b02f9b703343b86b561203219a49bb)
+        ;
+
+        
+    
+    
+            var marker_026189a92b3162543432de2353c1477d = L.marker(
+                [40.74704051203376, -73.82503506084905],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_3e813bdc54778bef7aac3db48181d13d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_026189a92b3162543432de2353c1477d.setIcon(icon_3e813bdc54778bef7aac3db48181d13d);
+        
+    
+        var popup_2567cc7662ddc0cdadfad075b9efca79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_329590498287eb35ccad1eb768af2614 = $(`<div id="html_329590498287eb35ccad1eb768af2614" style="width: 100.0%; height: 100.0%;">Time: 2024-06-11 16:49:27<br>Number: +16469318193<br>Duration: 224<br>Direction: Incoming<br>Distance: 3.4802050651147445 km<br>Distance from Anchor: 3.8853297089724252 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.74704051203376,-73.82503506084905' target='_blank'>Google Maps</a></div>`)[0];
+                popup_2567cc7662ddc0cdadfad075b9efca79.setContent(html_329590498287eb35ccad1eb768af2614);
+            
+        
+
+        marker_026189a92b3162543432de2353c1477d.bindPopup(popup_2567cc7662ddc0cdadfad075b9efca79)
+        ;
+
+        
+    
+    
+            var marker_f6abb0bda602e892fe0b34928acd161e = L.marker(
+                [40.724126747777774, -73.78922172400041],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_12b4f0c7935c611bb1d8873317d18fdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6abb0bda602e892fe0b34928acd161e.setIcon(icon_12b4f0c7935c611bb1d8873317d18fdf);
+        
+    
+        var popup_405482014278a5562007ea9e8ae795c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8d8853328d1aaa25ff7c7c27baff5ba = $(`<div id="html_c8d8853328d1aaa25ff7c7c27baff5ba" style="width: 100.0%; height: 100.0%;">Time: 2024-06-12 05:53:51<br>Number: +13322539904<br>Duration: 231<br>Direction: Outgoing<br>Distance: 3.9530209145410296 km<br>Distance from Anchor: 0.11229816820426321 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.724126747777774,-73.78922172400041' target='_blank'>Google Maps</a></div>`)[0];
+                popup_405482014278a5562007ea9e8ae795c7.setContent(html_c8d8853328d1aaa25ff7c7c27baff5ba);
+            
+        
+
+        marker_f6abb0bda602e892fe0b34928acd161e.bindPopup(popup_405482014278a5562007ea9e8ae795c7)
+        ;
+
+        
+    
+    
+            var marker_bae255d01018a96c6f13cb82d39125ca = L.marker(
+                [40.73061277793871, -73.77005085862245],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_d54323279e17af5a5b738a715b451846 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bae255d01018a96c6f13cb82d39125ca.setIcon(icon_d54323279e17af5a5b738a715b451846);
+        
+    
+        var popup_ca20c62867309b187fddd1d1fbb7e3db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d156443800d4d5f6591a409f416c0dac = $(`<div id="html_d156443800d4d5f6591a409f416c0dac" style="width: 100.0%; height: 100.0%;">Time: 2024-06-12 06:58:25<br>Number: +16477636097<br>Duration: 206<br>Direction: Outgoing<br>Distance: 1.7725109725920187 km<br>Distance from Anchor: 1.8825823170184899 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73061277793871,-73.77005085862245' target='_blank'>Google Maps</a></div>`)[0];
+                popup_ca20c62867309b187fddd1d1fbb7e3db.setContent(html_d156443800d4d5f6591a409f416c0dac);
+            
+        
+
+        marker_bae255d01018a96c6f13cb82d39125ca.bindPopup(popup_ca20c62867309b187fddd1d1fbb7e3db)
+        ;
+
+        
+    
+    
+            var marker_6cfc65fada56ff3357a6d44da894323e = L.marker(
+                [40.72549069503068, -73.79844066186482],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_ce96480d79713be098bd430634e723ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6cfc65fada56ff3357a6d44da894323e.setIcon(icon_ce96480d79713be098bd430634e723ed);
+        
+    
+        var popup_cf701d40d4a7b006a04773c162a42866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_229db004d83dfe45bd1ef2db40ba2c57 = $(`<div id="html_229db004d83dfe45bd1ef2db40ba2c57" style="width: 100.0%; height: 100.0%;">Time: 2024-06-12 11:06:30<br>Number: +13322539904<br>Duration: 261<br>Direction: Outgoing<br>Distance: 2.464897818599057 km<br>Distance from Anchor: 0.6916501687609222 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72549069503068,-73.79844066186482' target='_blank'>Google Maps</a></div>`)[0];
+                popup_cf701d40d4a7b006a04773c162a42866.setContent(html_229db004d83dfe45bd1ef2db40ba2c57);
+            
+        
+
+        marker_6cfc65fada56ff3357a6d44da894323e.bindPopup(popup_cf701d40d4a7b006a04773c162a42866)
+        ;
+
+        
+    
+    
+            var marker_a27839fe2755dc8ec868daf278e4230b = L.marker(
+                [40.740667702052605, -73.76727669952585],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_23bf3475609204c65271b347dab36883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a27839fe2755dc8ec868daf278e4230b.setIcon(icon_23bf3475609204c65271b347dab36883);
+        
+    
+        var popup_50d4fc33ae626a422547116457b967b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86b3346963010fa94ce6546a54e6e823 = $(`<div id="html_86b3346963010fa94ce6546a54e6e823" style="width: 100.0%; height: 100.0%;">Time: 2024-06-12 15:23:29<br>Number: +13322539904<br>Duration: 59<br>Direction: Outgoing<br>Distance: 3.125823211424797 km<br>Distance from Anchor: 2.705048049764561 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.740667702052605,-73.76727669952585' target='_blank'>Google Maps</a></div>`)[0];
+                popup_50d4fc33ae626a422547116457b967b6.setContent(html_86b3346963010fa94ce6546a54e6e823);
+            
+        
+
+        marker_a27839fe2755dc8ec868daf278e4230b.bindPopup(popup_50d4fc33ae626a422547116457b967b6)
+        ;
+
+        
+    
+    
+            var marker_1bbce52fa64e2c2976ecb3927c154da4 = L.marker(
+                [40.73716525376965, -73.79687986120562],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_8525aa16c46761429516a043f2db01cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bbce52fa64e2c2976ecb3927c154da4.setIcon(icon_8525aa16c46761429516a043f2db01cb);
+        
+    
+        var popup_e31b61cd2a4bc6b0f2ee6768958564dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_002c92f452264e29f0ba1746cc502ab5 = $(`<div id="html_002c92f452264e29f0ba1746cc502ab5" style="width: 100.0%; height: 100.0%;">Time: 2024-06-12 17:15:34<br>Number: +19177498838<br>Duration: 55<br>Direction: Outgoing<br>Distance: 2.5305384485800757 km<br>Distance from Anchor: 1.5666168141501489 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73716525376965,-73.79687986120562' target='_blank'>Google Maps</a></div>`)[0];
+                popup_e31b61cd2a4bc6b0f2ee6768958564dc.setContent(html_002c92f452264e29f0ba1746cc502ab5);
+            
+        
+
+        marker_1bbce52fa64e2c2976ecb3927c154da4.bindPopup(popup_e31b61cd2a4bc6b0f2ee6768958564dc)
+        ;
+
+        
+    
+    
+            var marker_7b5e144931e80baa17a511b09bf47cfc = L.marker(
+                [40.76436633259617, -73.6316473883436],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_701ca38427c62e507b272952044784fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b5e144931e80baa17a511b09bf47cfc.setIcon(icon_701ca38427c62e507b272952044784fc);
+        
+    
+        var popup_21caa6428541bea532775461b5b65003 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75da5c78f9e701cec7122533e2cd0ac7 = $(`<div id="html_75da5c78f9e701cec7122533e2cd0ac7" style="width: 100.0%; height: 100.0%;">Time: 2024-06-12 17:38:49<br>Number: +16464219574<br>Duration: 178<br>Direction: Outgoing<br>Distance: 14.27729581245193 km<br>Distance from Anchor: 14.150418860988902 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.76436633259617,-73.6316473883436' target='_blank'>Google Maps</a></div>`)[0];
+                popup_21caa6428541bea532775461b5b65003.setContent(html_75da5c78f9e701cec7122533e2cd0ac7);
+            
+        
+
+        marker_7b5e144931e80baa17a511b09bf47cfc.bindPopup(popup_21caa6428541bea532775461b5b65003)
+        ;
+
+        
+    
+    
+            var marker_4c6fb76cd4fba2aa9acbde1db83aaeb9 = L.marker(
+                [40.73753681052668, -73.78624611496359],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_94ec67bc021ee42880a4583170916a40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c6fb76cd4fba2aa9acbde1db83aaeb9.setIcon(icon_94ec67bc021ee42880a4583170916a40);
+        
+    
+        var popup_90475d28c03e589962ca3e6c49df40ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32953a136f0f256bd848b1629bdd587a = $(`<div id="html_32953a136f0f256bd848b1629bdd587a" style="width: 100.0%; height: 100.0%;">Time: 2024-06-13 04:20:59<br>Number: +16477636097<br>Duration: 90<br>Direction: Outgoing<br>Distance: 13.391662798767422 km<br>Distance from Anchor: 1.5554017872118382 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73753681052668,-73.78624611496359' target='_blank'>Google Maps</a></div>`)[0];
+                popup_90475d28c03e589962ca3e6c49df40ba.setContent(html_32953a136f0f256bd848b1629bdd587a);
+            
+        
+
+        marker_4c6fb76cd4fba2aa9acbde1db83aaeb9.bindPopup(popup_90475d28c03e589962ca3e6c49df40ba)
+        ;
+
+        
+    
+    
+            var marker_ffe26ff4a44ae4c68116ab9f2ba4425e = L.marker(
+                [40.72419106504988, -73.7842683002363],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_a62cf97a454ba8de1460184331e7cda5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffe26ff4a44ae4c68116ab9f2ba4425e.setIcon(icon_a62cf97a454ba8de1460184331e7cda5);
+        
+    
+        var popup_8b9be129c1e936b365c844ba46ceb791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b77061dc2daff9dd38706b69e55dd51 = $(`<div id="html_2b77061dc2daff9dd38706b69e55dd51" style="width: 100.0%; height: 100.0%;">Time: 2024-06-13 11:08:02<br>Number: +16469256651<br>Duration: 249<br>Direction: Outgoing<br>Distance: 1.4914160283400435 km<br>Distance from Anchor: 0.5291541507433025 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72419106504988,-73.7842683002363' target='_blank'>Google Maps</a></div>`)[0];
+                popup_8b9be129c1e936b365c844ba46ceb791.setContent(html_2b77061dc2daff9dd38706b69e55dd51);
+            
+        
+
+        marker_ffe26ff4a44ae4c68116ab9f2ba4425e.bindPopup(popup_8b9be129c1e936b365c844ba46ceb791)
+        ;
+
+        
+    
+    
+            var marker_f3c20e92b61af5b49d808517e4331ed9 = L.marker(
+                [40.727248813361015, -73.78279074943696],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_99891ad25708aa28b9af11752c5bbd49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3c20e92b61af5b49d808517e4331ed9.setIcon(icon_99891ad25708aa28b9af11752c5bbd49);
+        
+    
+        var popup_7670dc97565beb6bed25ff7172ccf7cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a09c8c2fb7e8fe7465c66906f86be60 = $(`<div id="html_0a09c8c2fb7e8fe7465c66906f86be60" style="width: 100.0%; height: 100.0%;">Time: 2024-06-13 12:09:36<br>Number: +13322539904<br>Duration: 143<br>Direction: Outgoing<br>Distance: 0.3617763377449193 km<br>Distance from Anchor: 0.7508115769771521 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.727248813361015,-73.78279074943696' target='_blank'>Google Maps</a></div>`)[0];
+                popup_7670dc97565beb6bed25ff7172ccf7cb.setContent(html_0a09c8c2fb7e8fe7465c66906f86be60);
+            
+        
+
+        marker_f3c20e92b61af5b49d808517e4331ed9.bindPopup(popup_7670dc97565beb6bed25ff7172ccf7cb)
+        ;
+
+        
+    
+    
+            var marker_00005b2ab10357d393898d9f5baf6e25 = L.marker(
+                [40.72830054756931, -73.79531067164953],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_2e94cf67ead3cf179aea238aa39aa68d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00005b2ab10357d393898d9f5baf6e25.setIcon(icon_2e94cf67ead3cf179aea238aa39aa68d);
+        
+    
+        var popup_761a6115e05b5862d96968bde75fff12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e180a4fa45b7b68b35568c4aa3b075e = $(`<div id="html_2e180a4fa45b7b68b35568c4aa3b075e" style="width: 100.0%; height: 100.0%;">Time: 2024-06-13 15:54:44<br>Number: +16477636097<br>Duration: 115<br>Direction: Outgoing<br>Distance: 1.0641168110813475 km<br>Distance from Anchor: 0.6333481715485839 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72830054756931,-73.79531067164953' target='_blank'>Google Maps</a></div>`)[0];
+                popup_761a6115e05b5862d96968bde75fff12.setContent(html_2e180a4fa45b7b68b35568c4aa3b075e);
+            
+        
+
+        marker_00005b2ab10357d393898d9f5baf6e25.bindPopup(popup_761a6115e05b5862d96968bde75fff12)
+        ;
+
+        
+    
+    
+            var marker_d96d175635d1a14753109a6512464d3c = L.marker(
+                [40.75741592772877, -73.81647592308079],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_d095c29e6a563ee6d82e43908f48472f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d96d175635d1a14753109a6512464d3c.setIcon(icon_d095c29e6a563ee6d82e43908f48472f);
+        
+    
+        var popup_559179492b532ffb25d94376af434cf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e603d5352b0a1cc398f990f8084a6061 = $(`<div id="html_e603d5352b0a1cc398f990f8084a6061" style="width: 100.0%; height: 100.0%;">Time: 2024-06-15 06:30:38<br>Number: +19177498838<br>Duration: 241<br>Direction: Outgoing<br>Distance: 3.6945181602842414 km<br>Distance from Anchor: 4.318313159958624 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.75741592772877,-73.81647592308079' target='_blank'>Google Maps</a></div>`)[0];
+                popup_559179492b532ffb25d94376af434cf8.setContent(html_e603d5352b0a1cc398f990f8084a6061);
+            
+        
+
+        marker_d96d175635d1a14753109a6512464d3c.bindPopup(popup_559179492b532ffb25d94376af434cf8)
+        ;
+
+        
+    
+    
+            var marker_4fc0b2287a942fc5cadb28c5212fc6a8 = L.marker(
+                [40.722615567881085, -73.80025127378478],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_487b862c62acfd10e67b852ad66029fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fc0b2287a942fc5cadb28c5212fc6a8.setIcon(icon_487b862c62acfd10e67b852ad66029fd);
+        
+    
+        var popup_630f45aa57913725e67e25b01c7d87b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45ad8613657add7380fdfeb1ff9bc45c = $(`<div id="html_45ad8613657add7380fdfeb1ff9bc45c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-15 08:20:16<br>Number: +16477636097<br>Duration: 211<br>Direction: Outgoing<br>Distance: 4.100330697418555 km<br>Distance from Anchor: 0.8346112422540168 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.722615567881085,-73.80025127378478' target='_blank'>Google Maps</a></div>`)[0];
+                popup_630f45aa57913725e67e25b01c7d87b7.setContent(html_45ad8613657add7380fdfeb1ff9bc45c);
+            
+        
+
+        marker_4fc0b2287a942fc5cadb28c5212fc6a8.bindPopup(popup_630f45aa57913725e67e25b01c7d87b7)
+        ;
+
+        
+    
+    
+            var marker_1eb8b200430ea3faf6fdedeba5fc0355 = L.marker(
+                [40.72852390964253, -73.7782523490854],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_e323be5fca55c838bf8037bc5a652616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1eb8b200430ea3faf6fdedeba5fc0355.setIcon(icon_e323be5fca55c838bf8037bc5a652616);
+        
+    
+        var popup_747b966929a86e92bd9ba806170907f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_234c7fc1c16b9fbc2d8eb7e8c1ab26dc = $(`<div id="html_234c7fc1c16b9fbc2d8eb7e8c1ab26dc" style="width: 100.0%; height: 100.0%;">Time: 2024-06-15 10:37:32<br>Number: +13322539904<br>Duration: 217<br>Direction: Outgoing<br>Distance: 1.970952117682982 km<br>Distance from Anchor: 1.1560531073957017 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72852390964253,-73.7782523490854' target='_blank'>Google Maps</a></div>`)[0];
+                popup_747b966929a86e92bd9ba806170907f1.setContent(html_234c7fc1c16b9fbc2d8eb7e8c1ab26dc);
+            
+        
+
+        marker_1eb8b200430ea3faf6fdedeba5fc0355.bindPopup(popup_747b966929a86e92bd9ba806170907f1)
+        ;
+
+        
+    
+    
+            var marker_d878b5e175cd88113f1f9da0a4b12856 = L.marker(
+                [40.715636307587886, -73.77969913887833],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_5fe3a72c53afda48ce6d839e3df6c1ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d878b5e175cd88113f1f9da0a4b12856.setIcon(icon_5fe3a72c53afda48ce6d839e3df6c1ec);
+        
+    
+        var popup_c8317f8f7134811773517d602a24cef8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb397f61630ee0058b16f35f1827fbc = $(`<div id="html_1eb397f61630ee0058b16f35f1827fbc" style="width: 100.0%; height: 100.0%;">Time: 2024-06-16 07:38:48<br>Number: +16469318193<br>Duration: 165<br>Direction: Incoming<br>Distance: 1.4363600398403418 km<br>Distance from Anchor: 1.296455104850695 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.715636307587886,-73.77969913887833' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c8317f8f7134811773517d602a24cef8.setContent(html_1eb397f61630ee0058b16f35f1827fbc);
+            
+        
+
+        marker_d878b5e175cd88113f1f9da0a4b12856.bindPopup(popup_c8317f8f7134811773517d602a24cef8)
+        ;
+
+        
+    
+    
+            var marker_df32864c745211c658b537357b2cc0dc = L.marker(
+                [40.75301734452786, -73.83688277182506],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_ab2b5b3aa3f72a1f4f371617cbc24e84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df32864c745211c658b537357b2cc0dc.setIcon(icon_ab2b5b3aa3f72a1f4f371617cbc24e84);
+        
+    
+        var popup_d5a78483606dd329b36e2b249f00be03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c99e2a9803006f0bd09fb349a4cc4fd8 = $(`<div id="html_c99e2a9803006f0bd09fb349a4cc4fd8" style="width: 100.0%; height: 100.0%;">Time: 2024-06-16 17:14:40<br>Number: +16464219574<br>Duration: 34<br>Direction: Outgoing<br>Distance: 6.3690468159810605 km<br>Distance from Anchor: 5.077517621486865 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.75301734452786,-73.83688277182506' target='_blank'>Google Maps</a></div>`)[0];
+                popup_d5a78483606dd329b36e2b249f00be03.setContent(html_c99e2a9803006f0bd09fb349a4cc4fd8);
+            
+        
+
+        marker_df32864c745211c658b537357b2cc0dc.bindPopup(popup_d5a78483606dd329b36e2b249f00be03)
+        ;
+
+        
+    
+    
+            var marker_37878741e57465f6bce6ac935bf2639c = L.marker(
+                [40.71550255626796, -73.81926569817765],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_7e2eb1a6f90ba423e27feec050dd2b40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37878741e57465f6bce6ac935bf2639c.setIcon(icon_7e2eb1a6f90ba423e27feec050dd2b40);
+        
+    
+        var popup_0ad88ee0978d9b50e8008a23615f3943 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d111e4e033187fb2469bc0e01ac99612 = $(`<div id="html_d111e4e033187fb2469bc0e01ac99612" style="width: 100.0%; height: 100.0%;">Time: 2024-06-16 17:24:36<br>Number: +16469256651<br>Duration: 282<br>Direction: Outgoing<br>Distance: 4.423789696759796 km<br>Distance from Anchor: 2.60205968308739 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.71550255626796,-73.81926569817765' target='_blank'>Google Maps</a></div>`)[0];
+                popup_0ad88ee0978d9b50e8008a23615f3943.setContent(html_d111e4e033187fb2469bc0e01ac99612);
+            
+        
+
+        marker_37878741e57465f6bce6ac935bf2639c.bindPopup(popup_0ad88ee0978d9b50e8008a23615f3943)
+        ;
+
+        
+    
+    
+            var marker_be31c6309def7779cfc4b68a5cd12b1c = L.marker(
+                [40.72767176854032, -73.79921890810145],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_de2a450db1ac56b8269088156cebd9e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be31c6309def7779cfc4b68a5cd12b1c.setIcon(icon_de2a450db1ac56b8269088156cebd9e0);
+        
+    
+        var popup_b97e299ca0aa80e8e66408cd7923ba35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a82d808dc97d855b48f55f8437b57ff2 = $(`<div id="html_a82d808dc97d855b48f55f8437b57ff2" style="width: 100.0%; height: 100.0%;">Time: 2024-06-16 22:32:00<br>Number: +16477636097<br>Duration: 261<br>Direction: Outgoing<br>Distance: 2.166769148661265 km<br>Distance from Anchor: 0.8451035107335059 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72767176854032,-73.79921890810145' target='_blank'>Google Maps</a></div>`)[0];
+                popup_b97e299ca0aa80e8e66408cd7923ba35.setContent(html_a82d808dc97d855b48f55f8437b57ff2);
+            
+        
+
+        marker_be31c6309def7779cfc4b68a5cd12b1c.bindPopup(popup_b97e299ca0aa80e8e66408cd7923ba35)
+        ;
+
+        
+    
+    
+            var marker_168205d6afd41faea0b2b58a9221d979 = L.marker(
+                [40.69219433154433, -73.83251482291116],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_64914016fc2fce8c40860772097c51ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_168205d6afd41faea0b2b58a9221d979.setIcon(icon_64914016fc2fce8c40860772097c51ee);
+        
+    
+        var popup_e87bea531136acdee46ae8fc67c94c9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_925323b64b9c74b33c31385ff4b801fd = $(`<div id="html_925323b64b9c74b33c31385ff4b801fd" style="width: 100.0%; height: 100.0%;">Time: 2024-06-17 21:35:30<br>Number: +16469256651<br>Duration: 222<br>Direction: Outgoing<br>Distance: 4.841246797016691 km<br>Distance from Anchor: 4.999999999998459 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.69219433154433,-73.83251482291116' target='_blank'>Google Maps</a></div>`)[0];
+                popup_e87bea531136acdee46ae8fc67c94c9a.setContent(html_925323b64b9c74b33c31385ff4b801fd);
+            
+        
+
+        marker_168205d6afd41faea0b2b58a9221d979.bindPopup(popup_e87bea531136acdee46ae8fc67c94c9a)
+        ;
+
+        
+    
+    
+            var marker_5800ce33757c81a87095f8d51155b061 = L.marker(
+                [40.73660704501987, -73.8269436412052],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_4c41488fbe85cc62859f80241a75a0f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5800ce33757c81a87095f8d51155b061.setIcon(icon_4c41488fbe85cc62859f80241a75a0f0);
+        
+    
+        var popup_c5e48b7b6ce4f8e36a6d06c9c5f791e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f6743c6b93157857bcbcd60d44e7b7e = $(`<div id="html_5f6743c6b93157857bcbcd60d44e7b7e" style="width: 100.0%; height: 100.0%;">Time: 2024-06-17 22:42:01<br>Number: +19177498838<br>Duration: 64<br>Direction: Outgoing<br>Distance: 4.954375716583006 km<br>Distance from Anchor: 3.3844316682004636 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73660704501987,-73.8269436412052' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c5e48b7b6ce4f8e36a6d06c9c5f791e3.setContent(html_5f6743c6b93157857bcbcd60d44e7b7e);
+            
+        
+
+        marker_5800ce33757c81a87095f8d51155b061.bindPopup(popup_c5e48b7b6ce4f8e36a6d06c9c5f791e3)
+        ;
+
+        
+    
+    
+            var marker_5c27af5b51e23b6e24f14b542bb9b512 = L.marker(
+                [40.73385361645036, -73.7813164372281],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_430efd83ec1bcd3d7646e9aff9f26ba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c27af5b51e23b6e24f14b542bb9b512.setIcon(icon_430efd83ec1bcd3d7646e9aff9f26ba8);
+        
+    
+        var popup_4b1433180b790f8f411a5e48c053d2f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6063c84e13dabda7433f62220397d619 = $(`<div id="html_6063c84e13dabda7433f62220397d619" style="width: 100.0%; height: 100.0%;">Time: 2024-06-18 01:04:38<br>Number: +16469318193<br>Duration: 279<br>Direction: Incoming<br>Distance: 3.866283584039745 km<br>Distance from Anchor: 1.350260025381795 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73385361645036,-73.7813164372281' target='_blank'>Google Maps</a></div>`)[0];
+                popup_4b1433180b790f8f411a5e48c053d2f3.setContent(html_6063c84e13dabda7433f62220397d619);
+            
+        
+
+        marker_5c27af5b51e23b6e24f14b542bb9b512.bindPopup(popup_4b1433180b790f8f411a5e48c053d2f3)
+        ;
+
+        
+    
+    
+            var marker_8a100d4abb41c856c702e6335eaf6c6f = L.marker(
+                [40.74055626304522, -73.82660112515889],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_db8c1822bfed1f4426c4f2b2f9680cd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a100d4abb41c856c702e6335eaf6c6f.setIcon(icon_db8c1822bfed1f4426c4f2b2f9680cd9);
+        
+    
+        var popup_eee34bd63c84b5c86d055097bbf342af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_554ed980cd65afcf347953f843d81dcb = $(`<div id="html_554ed980cd65afcf347953f843d81dcb" style="width: 100.0%; height: 100.0%;">Time: 2024-06-18 08:10:31<br>Number: +19177498838<br>Duration: 219<br>Direction: Outgoing<br>Distance: 3.896873006615265 km<br>Distance from Anchor: 3.5644579478123317 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.74055626304522,-73.82660112515889' target='_blank'>Google Maps</a></div>`)[0];
+                popup_eee34bd63c84b5c86d055097bbf342af.setContent(html_554ed980cd65afcf347953f843d81dcb);
+            
+        
+
+        marker_8a100d4abb41c856c702e6335eaf6c6f.bindPopup(popup_eee34bd63c84b5c86d055097bbf342af)
+        ;
+
+        
+    
+    
+            var marker_23251203079bc96bd83823f6323475ec = L.marker(
+                [40.62007724975396, -73.67696122972178],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_7d4ef80117329ab9454b8a4b3d6d9196 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_23251203079bc96bd83823f6323475ec.setIcon(icon_7d4ef80117329ab9454b8a4b3d6d9196);
+        
+    
+        var popup_b30ed7605fd006b4ee4255ca0a9c1561 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0cdb02cbe4e5936442dfca26e92ca54 = $(`<div id="html_a0cdb02cbe4e5936442dfca26e92ca54" style="width: 100.0%; height: 100.0%;">Time: 2024-06-18 11:45:41<br>Number: +13322539904<br>Duration: 296<br>Direction: Outgoing<br>Distance: 18.412857832529582 km<br>Distance from Anchor: 15.004915316469098 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.62007724975396,-73.67696122972178' target='_blank'>Google Maps</a></div>`)[0];
+                popup_b30ed7605fd006b4ee4255ca0a9c1561.setContent(html_a0cdb02cbe4e5936442dfca26e92ca54);
+            
+        
+
+        marker_23251203079bc96bd83823f6323475ec.bindPopup(popup_b30ed7605fd006b4ee4255ca0a9c1561)
+        ;
+
+        
+    
+    
+            var marker_f9e0d63d4aa12096dc2aaa036cbccf7c = L.marker(
+                [40.72008293703344, -73.79323391683938],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_2aef51bd7ef21dbccc978e12a023ec2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9e0d63d4aa12096dc2aaa036cbccf7c.setIcon(icon_2aef51bd7ef21dbccc978e12a023ec2e);
+        
+    
+        var popup_196d75b1aba6eb44da0ce0757eacac37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0332bc586a700e8e55f4aa18826e7b2c = $(`<div id="html_0332bc586a700e8e55f4aa18826e7b2c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-19 07:38:50<br>Number: +13322539904<br>Duration: 79<br>Direction: Outgoing<br>Distance: 14.83181648895311 km<br>Distance from Anchor: 0.4831612114556137 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72008293703344,-73.79323391683938' target='_blank'>Google Maps</a></div>`)[0];
+                popup_196d75b1aba6eb44da0ce0757eacac37.setContent(html_0332bc586a700e8e55f4aa18826e7b2c);
+            
+        
+
+        marker_f9e0d63d4aa12096dc2aaa036cbccf7c.bindPopup(popup_196d75b1aba6eb44da0ce0757eacac37)
+        ;
+
+        
+    
+    
+            var marker_ef65197f9701053efa64c5ecccce0c73 = L.marker(
+                [40.73037302371447, -73.79130296536827],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_e70ace299f90634925d958dd2d9bc556 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef65197f9701053efa64c5ecccce0c73.setIcon(icon_e70ace299f90634925d958dd2d9bc556);
+        
+    
+        var popup_55ad4a5aabcc4854525e64a989c5732c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c28f9debdd71628449840c9185d27bff = $(`<div id="html_c28f9debdd71628449840c9185d27bff" style="width: 100.0%; height: 100.0%;">Time: 2024-06-20 07:34:59<br>Number: +13322539904<br>Duration: 231<br>Direction: Outgoing<br>Distance: 1.1542856172979512 km<br>Distance from Anchor: 0.7204062809235112 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73037302371447,-73.79130296536827' target='_blank'>Google Maps</a></div>`)[0];
+                popup_55ad4a5aabcc4854525e64a989c5732c.setContent(html_c28f9debdd71628449840c9185d27bff);
+            
+        
+
+        marker_ef65197f9701053efa64c5ecccce0c73.bindPopup(popup_55ad4a5aabcc4854525e64a989c5732c)
+        ;
+
+        
+    
+    
+            var marker_c81c3cb80e86c5125df3464be07ab610 = L.marker(
+                [40.71191726882041, -73.81140251522267],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_e100ee4e901a2a52524b6330a01d5043 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c81c3cb80e86c5125df3464be07ab610.setIcon(icon_e100ee4e901a2a52524b6330a01d5043);
+        
+    
+        var popup_45be89cf8180d8215e11072ffe8b4cc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2812b1956dd68fb99a5d287e127256d2 = $(`<div id="html_2812b1956dd68fb99a5d287e127256d2" style="width: 100.0%; height: 100.0%;">Time: 2024-06-20 20:08:55<br>Number: +13322539904<br>Duration: 298<br>Direction: Outgoing<br>Distance: 2.661620336855425 km<br>Distance from Anchor: 2.210756644480171 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.71191726882041,-73.81140251522267' target='_blank'>Google Maps</a></div>`)[0];
+                popup_45be89cf8180d8215e11072ffe8b4cc8.setContent(html_2812b1956dd68fb99a5d287e127256d2);
+            
+        
+
+        marker_c81c3cb80e86c5125df3464be07ab610.bindPopup(popup_45be89cf8180d8215e11072ffe8b4cc8)
+        ;
+
+        
+    
+    
+            var marker_b9d9b7ae6028060c81aeb5f8d697fa1f = L.marker(
+                [40.72562801711539, -73.78932618456905],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_69446854da414205841cc031bded54f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b9d9b7ae6028060c81aeb5f8d697fa1f.setIcon(icon_69446854da414205841cc031bded54f9);
+        
+    
+        var popup_61529c494626cf842ca83a8890a3d591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c31de95266b5b798780161f0ec2e837d = $(`<div id="html_c31de95266b5b798780161f0ec2e837d" style="width: 100.0%; height: 100.0%;">Time: 2024-06-20 22:18:17<br>Number: +13322539904<br>Duration: 74<br>Direction: Outgoing<br>Distance: 2.407780745259453 km<br>Distance from Anchor: 0.21553851543621239 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72562801711539,-73.78932618456905' target='_blank'>Google Maps</a></div>`)[0];
+                popup_61529c494626cf842ca83a8890a3d591.setContent(html_c31de95266b5b798780161f0ec2e837d);
+            
+        
+
+        marker_b9d9b7ae6028060c81aeb5f8d697fa1f.bindPopup(popup_61529c494626cf842ca83a8890a3d591)
+        ;
+
+        
+    
+    
+            var marker_56ff485881b054915952c4e0e197a5c1 = L.marker(
+                [40.71307475097773, -73.77122333182056],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_753d7f4abfb979ad81fe832d4869584a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56ff485881b054915952c4e0e197a5c1.setIcon(icon_753d7f4abfb979ad81fe832d4869584a);
+        
+    
+        var popup_e69a875caea7885aca7ab0fce3b25d5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbe08f8cc11a769693bfb780cf8f06e2 = $(`<div id="html_bbe08f8cc11a769693bfb780cf8f06e2" style="width: 100.0%; height: 100.0%;">Time: 2024-06-21 08:46:17<br>Number: +19177498838<br>Duration: 183<br>Direction: Outgoing<br>Distance: 2.0694815578556236 km<br>Distance from Anchor: 2.026600389713962 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.71307475097773,-73.77122333182056' target='_blank'>Google Maps</a></div>`)[0];
+                popup_e69a875caea7885aca7ab0fce3b25d5a.setContent(html_bbe08f8cc11a769693bfb780cf8f06e2);
+            
+        
+
+        marker_56ff485881b054915952c4e0e197a5c1.bindPopup(popup_e69a875caea7885aca7ab0fce3b25d5a)
+        ;
+
+        
+    
+    
+            var marker_b429ede7b198b40cdbd8ee7156bff6d9 = L.marker(
+                [40.733667074213315, -73.80053315552608],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_db14f86c0a6284c1c47a5ddac3af8d69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b429ede7b198b40cdbd8ee7156bff6d9.setIcon(icon_db14f86c0a6284c1c47a5ddac3af8d69);
+        
+    
+        var popup_ba3e0e18dff5f38123a41ed313fe9314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf07f213ec4f10c174bc6c823ac1b676 = $(`<div id="html_cf07f213ec4f10c174bc6c823ac1b676" style="width: 100.0%; height: 100.0%;">Time: 2024-06-21 10:40:00<br>Number: +16464219574<br>Duration: 260<br>Direction: Outgoing<br>Distance: 3.370626416456302 km<br>Distance from Anchor: 1.3742919613819742 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.733667074213315,-73.80053315552608' target='_blank'>Google Maps</a></div>`)[0];
+                popup_ba3e0e18dff5f38123a41ed313fe9314.setContent(html_cf07f213ec4f10c174bc6c823ac1b676);
+            
+        
+
+        marker_b429ede7b198b40cdbd8ee7156bff6d9.bindPopup(popup_ba3e0e18dff5f38123a41ed313fe9314)
+        ;
+
+        
+    
+    
+            var marker_510b2664175521022747492de06d3843 = L.marker(
+                [40.72679768140511, -73.78851104180715],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_7c80227d6fef7e89e38dc8bf297d536b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_510b2664175521022747492de06d3843.setIcon(icon_7c80227d6fef7e89e38dc8bf297d536b);
+        
+    
+        var popup_474acfd06092bbab96596b3c0bf45b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb677c89e92f8ddbe05d0b50414eaf93 = $(`<div id="html_bb677c89e92f8ddbe05d0b50414eaf93" style="width: 100.0%; height: 100.0%;">Time: 2024-06-21 10:54:13<br>Number: +16469318193<br>Duration: 61<br>Direction: Incoming<br>Distance: 1.2701790313498444 km<br>Distance from Anchor: 0.36255458207691543 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72679768140511,-73.78851104180715' target='_blank'>Google Maps</a></div>`)[0];
+                popup_474acfd06092bbab96596b3c0bf45b71.setContent(html_bb677c89e92f8ddbe05d0b50414eaf93);
+            
+        
+
+        marker_510b2664175521022747492de06d3843.bindPopup(popup_474acfd06092bbab96596b3c0bf45b71)
+        ;
+
+        
+    
+    
+            var marker_f47d6eb4f497bbdf16235613b1dc7a5f = L.marker(
+                [40.75684111823852, -73.75014717049204],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_f4b036cb7a4f08f14f440b3364682adc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f47d6eb4f497bbdf16235613b1dc7a5f.setIcon(icon_f4b036cb7a4f08f14f440b3364682adc);
+        
+    
+        var popup_0b9766b211667ac1f0caabd5007cf9cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d25a433e8ba4b404a3de7fd9a3b88fe2 = $(`<div id="html_d25a433e8ba4b404a3de7fd9a3b88fe2" style="width: 100.0%; height: 100.0%;">Time: 2024-06-21 13:07:11<br>Number: +13322539904<br>Duration: 46<br>Direction: Outgoing<br>Distance: 4.650856897515304 km<br>Distance from Anchor: 5.000000000000291 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.75684111823852,-73.75014717049204' target='_blank'>Google Maps</a></div>`)[0];
+                popup_0b9766b211667ac1f0caabd5007cf9cf.setContent(html_d25a433e8ba4b404a3de7fd9a3b88fe2);
+            
+        
+
+        marker_f47d6eb4f497bbdf16235613b1dc7a5f.bindPopup(popup_0b9766b211667ac1f0caabd5007cf9cf)
+        ;
+
+        
+    
+    
+            var marker_43551016456594749fde2752fb7c420c = L.marker(
+                [40.73127437584705, -73.79670004664008],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_4a9bc38423b5ced977db0e5a0ed8d46a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43551016456594749fde2752fb7c420c.setIcon(icon_4a9bc38423b5ced977db0e5a0ed8d46a);
+        
+    
+        var popup_4d18e56c7e842188e0992485e4cca37a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80045b96614d119642b211457446ce3d = $(`<div id="html_80045b96614d119642b211457446ce3d" style="width: 100.0%; height: 100.0%;">Time: 2024-06-22 04:40:02<br>Number: +16469318193<br>Duration: 174<br>Direction: Incoming<br>Distance: 4.849767760050642 km<br>Distance from Anchor: 0.9699224208968998 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73127437584705,-73.79670004664008' target='_blank'>Google Maps</a></div>`)[0];
+                popup_4d18e56c7e842188e0992485e4cca37a.setContent(html_80045b96614d119642b211457446ce3d);
+            
+        
+
+        marker_43551016456594749fde2752fb7c420c.bindPopup(popup_4d18e56c7e842188e0992485e4cca37a)
+        ;
+
+        
+    
+    
+            var marker_df87b63a8cdfad0c42af77e959b0d280 = L.marker(
+                [40.72322758112878, -73.79666566960243],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_38dfee69750188f74c182574382ec0c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df87b63a8cdfad0c42af77e959b0d280.setIcon(icon_38dfee69750188f74c182574382ec0c3);
+        
+    
+        var popup_4a67dd15da19fafbc960c20ae4bf6126 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9125055cc7f5b6cc6f12f95b3400e19c = $(`<div id="html_9125055cc7f5b6cc6f12f95b3400e19c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-22 12:05:00<br>Number: +16477636097<br>Duration: 102<br>Direction: Outgoing<br>Distance: 0.8935903260865373 km<br>Distance from Anchor: 0.5246950512138822 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72322758112878,-73.79666566960243' target='_blank'>Google Maps</a></div>`)[0];
+                popup_4a67dd15da19fafbc960c20ae4bf6126.setContent(html_9125055cc7f5b6cc6f12f95b3400e19c);
+            
+        
+
+        marker_df87b63a8cdfad0c42af77e959b0d280.bindPopup(popup_4a67dd15da19fafbc960c20ae4bf6126)
+        ;
+
+        
+    
+    
+            var marker_3177dd0fc2a596ef2b0ab1518accc2dd = L.marker(
+                [40.721917474877735, -73.75464999902537],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_f0ffb310d220e667cd636c06688b2e52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3177dd0fc2a596ef2b0ab1518accc2dd.setIcon(icon_f0ffb310d220e667cd636c06688b2e52);
+        
+    
+        var popup_c2ebbc33ee1ee2d96470e6f192524fff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a99c98524c955e63663e2006a3ec9411 = $(`<div id="html_a99c98524c955e63663e2006a3ec9411" style="width: 100.0%; height: 100.0%;">Time: 2024-06-22 12:22:04<br>Number: +19177498838<br>Duration: 280<br>Direction: Outgoing<br>Distance: 3.5527568319778413 km<br>Distance from Anchor: 3.0387009821207784 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.721917474877735,-73.75464999902537' target='_blank'>Google Maps</a></div>`)[0];
+                popup_c2ebbc33ee1ee2d96470e6f192524fff.setContent(html_a99c98524c955e63663e2006a3ec9411);
+            
+        
+
+        marker_3177dd0fc2a596ef2b0ab1518accc2dd.bindPopup(popup_c2ebbc33ee1ee2d96470e6f192524fff)
+        ;
+
+        
+    
+    
+            var marker_297d4b068d528170935bbc94201853c9 = L.marker(
+                [40.76246929644128, -73.76846383536346],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_54cb5ee2c6d660769c083fcbf64ce2eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_297d4b068d528170935bbc94201853c9.setIcon(icon_54cb5ee2c6d660769c083fcbf64ce2eb);
+        
+    
+        var popup_9a757f5fc8a784b7a40803c32365003a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76ed280b335022cda95501a9e54a0f1c = $(`<div id="html_76ed280b335022cda95501a9e54a0f1c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-23 10:58:49<br>Number: +16477636097<br>Duration: 240<br>Direction: Outgoing<br>Distance: 4.651928023722793 km<br>Distance from Anchor: 4.669365508596137 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.76246929644128,-73.76846383536346' target='_blank'>Google Maps</a></div>`)[0];
+                popup_9a757f5fc8a784b7a40803c32365003a.setContent(html_76ed280b335022cda95501a9e54a0f1c);
+            
+        
+
+        marker_297d4b068d528170935bbc94201853c9.bindPopup(popup_9a757f5fc8a784b7a40803c32365003a)
+        ;
+
+        
+    
+    
+            var marker_3caf179ee79ba4951df9edc9d0c61fd1 = L.marker(
+                [40.729503215970176, -73.81825557176677],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_d894751a9f5cebd4384ef79c744b8464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3caf179ee79ba4951df9edc9d0c61fd1.setIcon(icon_d894751a9f5cebd4384ef79c744b8464);
+        
+    
+        var popup_ce1919dab85a289029ca44c751e0b1bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fc0e86a103fd1097022925df58310c6 = $(`<div id="html_8fc0e86a103fd1097022925df58310c6" style="width: 100.0%; height: 100.0%;">Time: 2024-06-24 07:27:51<br>Number: +19177498838<br>Duration: 263<br>Direction: Outgoing<br>Distance: 5.5754991740896465 km<br>Distance from Anchor: 2.423912933271863 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.729503215970176,-73.81825557176677' target='_blank'>Google Maps</a></div>`)[0];
+                popup_ce1919dab85a289029ca44c751e0b1bc.setContent(html_8fc0e86a103fd1097022925df58310c6);
+            
+        
+
+        marker_3caf179ee79ba4951df9edc9d0c61fd1.bindPopup(popup_ce1919dab85a289029ca44c751e0b1bc)
+        ;
+
+        
+    
+    
+            var marker_21816cdc6e7407940921a8694b0f1124 = L.marker(
+                [40.608656305811856, -73.75429026519596],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_f91a6ee84dc412112687901fa00120b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_21816cdc6e7407940921a8694b0f1124.setIcon(icon_f91a6ee84dc412112687901fa00120b7);
+        
+    
+        var popup_1257089f7f7c31861c64b56cf6f78244 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad7e5a46b6c9f7cd45cacf1e77047ed = $(`<div id="html_8ad7e5a46b6c9f7cd45cacf1e77047ed" style="width: 100.0%; height: 100.0%;">Time: 2024-06-24 08:05:51<br>Number: +16477636097<br>Duration: 47<br>Direction: Outgoing<br>Distance: 14.468660929008253 km<br>Distance from Anchor: 13.160518160323251 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.608656305811856,-73.75429026519596' target='_blank'>Google Maps</a></div>`)[0];
+                popup_1257089f7f7c31861c64b56cf6f78244.setContent(html_8ad7e5a46b6c9f7cd45cacf1e77047ed);
+            
+        
+
+        marker_21816cdc6e7407940921a8694b0f1124.bindPopup(popup_1257089f7f7c31861c64b56cf6f78244)
+        ;
+
+        
+    
+    
+            var marker_cb64105754d2ca64bbf998c96667b184 = L.marker(
+                [40.781146791417804, -73.68196531828397],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_638de6d3255f6b900edd83881ba2e86e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb64105754d2ca64bbf998c96667b184.setIcon(icon_638de6d3255f6b900edd83881ba2e86e);
+        
+    
+        var popup_7466f14047cb3aa8250021cb491f1bbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdcdd1562a73308921a5acceb8155736 = $(`<div id="html_fdcdd1562a73308921a5acceb8155736" style="width: 100.0%; height: 100.0%;">Time: 2024-06-24 12:13:24<br>Number: +19177498838<br>Duration: 263<br>Direction: Outgoing<br>Distance: 20.106535403873515 km<br>Distance from Anchor: 11.155142264882075 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.781146791417804,-73.68196531828397' target='_blank'>Google Maps</a></div>`)[0];
+                popup_7466f14047cb3aa8250021cb491f1bbd.setContent(html_fdcdd1562a73308921a5acceb8155736);
+            
+        
+
+        marker_cb64105754d2ca64bbf998c96667b184.bindPopup(popup_7466f14047cb3aa8250021cb491f1bbd)
+        ;
+
+        
+    
+    
+            var marker_dcaa828f35db7410240ccc9aabdc4341 = L.marker(
+                [40.72097203083125, -73.81429693080247],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_b3815e54bb817411e1ac8259c06b86e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcaa828f35db7410240ccc9aabdc4341.setIcon(icon_b3815e54bb817411e1ac8259c06b86e4);
+        
+    
+        var popup_94671be3c2694f3b51e52a47a9593135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_122497440f799aead681e8200c4a84fc = $(`<div id="html_122497440f799aead681e8200c4a84fc" style="width: 100.0%; height: 100.0%;">Time: 2024-06-24 17:34:31<br>Number: +19177498838<br>Duration: 284<br>Direction: Outgoing<br>Distance: 13.020992097354425 km<br>Distance from Anchor: 2.0351443018757456 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72097203083125,-73.81429693080247' target='_blank'>Google Maps</a></div>`)[0];
+                popup_94671be3c2694f3b51e52a47a9593135.setContent(html_122497440f799aead681e8200c4a84fc);
+            
+        
+
+        marker_dcaa828f35db7410240ccc9aabdc4341.bindPopup(popup_94671be3c2694f3b51e52a47a9593135)
+        ;
+
+        
+    
+    
+            var marker_bbacac7535fd7ce2a07cf81a1749f074 = L.marker(
+                [40.8076866917034, -73.5608987544573],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_1c7399cb244d3c2894bec559e7b6af44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bbacac7535fd7ce2a07cf81a1749f074.setIcon(icon_1c7399cb244d3c2894bec559e7b6af44);
+        
+    
+        var popup_762133cec1ebc0845fef26fc92579b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89851600070a8834ba7f5e8e19d2eb70 = $(`<div id="html_89851600070a8834ba7f5e8e19d2eb70" style="width: 100.0%; height: 100.0%;">Time: 2024-06-24 19:25:49<br>Number: +16464219574<br>Duration: 67<br>Direction: Outgoing<br>Distance: 23.462617741403523 km<br>Distance from Anchor: 21.50399229490786 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.8076866917034,-73.5608987544573' target='_blank'>Google Maps</a></div>`)[0];
+                popup_762133cec1ebc0845fef26fc92579b74.setContent(html_89851600070a8834ba7f5e8e19d2eb70);
+            
+        
+
+        marker_bbacac7535fd7ce2a07cf81a1749f074.bindPopup(popup_762133cec1ebc0845fef26fc92579b74)
+        ;
+
+        
+    
+    
+            var marker_415a88cdce6639ca3a96a1bc92bc2cbd = L.marker(
+                [40.724113442443056, -73.79013650892426],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_01350617da9e354da32866cdcbdae71c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_415a88cdce6639ca3a96a1bc92bc2cbd.setIcon(icon_01350617da9e354da32866cdcbdae71c);
+        
+    
+        var popup_380c7daddb730e976ad46ee3a5919203 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_824eabe798e35e0352d9183806d61ce3 = $(`<div id="html_824eabe798e35e0352d9183806d61ce3" style="width: 100.0%; height: 100.0%;">Time: 2024-06-25 04:12:55<br>Number: +16477636097<br>Duration: 238<br>Direction: Outgoing<br>Distance: 21.465078374775587 km<br>Distance from Anchor: 0.03936872231139287 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.724113442443056,-73.79013650892426' target='_blank'>Google Maps</a></div>`)[0];
+                popup_380c7daddb730e976ad46ee3a5919203.setContent(html_824eabe798e35e0352d9183806d61ce3);
+            
+        
+
+        marker_415a88cdce6639ca3a96a1bc92bc2cbd.bindPopup(popup_380c7daddb730e976ad46ee3a5919203)
+        ;
+
+        
+    
+    
+            var marker_5cb4be6f25aaa28fa07d13a0156c4d17 = L.marker(
+                [40.75572538246422, -73.57050104413733],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_dff55a396aca0c61b5148a027a9b9bbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cb4be6f25aaa28fa07d13a0156c4d17.setIcon(icon_dff55a396aca0c61b5148a027a9b9bbc);
+        
+    
+        var popup_0376e3078e0b216d83c5075836bfb800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9217d7944dd0e2e8ecd9827d82f454c2 = $(`<div id="html_9217d7944dd0e2e8ecd9827d82f454c2" style="width: 100.0%; height: 100.0%;">Time: 2024-06-25 06:21:56<br>Number: +16477636097<br>Duration: 130<br>Direction: Outgoing<br>Distance: 18.88073043531235 km<br>Distance from Anchor: 18.916804488482562 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.75572538246422,-73.57050104413733' target='_blank'>Google Maps</a></div>`)[0];
+                popup_0376e3078e0b216d83c5075836bfb800.setContent(html_9217d7944dd0e2e8ecd9827d82f454c2);
+            
+        
+
+        marker_5cb4be6f25aaa28fa07d13a0156c4d17.bindPopup(popup_0376e3078e0b216d83c5075836bfb800)
+        ;
+
+        
+    
+    
+            var marker_56b9844a1c0879043347a9cfd4326c8c = L.marker(
+                [40.70799675441755, -73.75019412319779],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_83d850c8470972b7ba9dcb3847a3ba0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56b9844a1c0879043347a9cfd4326c8c.setIcon(icon_83d850c8470972b7ba9dcb3847a3ba0c);
+        
+    
+        var popup_49a3cd3bde04847b8a98a48cee19a371 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c8ef40f6ab881032f5db9a1c02e355a = $(`<div id="html_1c8ef40f6ab881032f5db9a1c02e355a" style="width: 100.0%; height: 100.0%;">Time: 2024-06-25 07:27:26<br>Number: +16469256651<br>Duration: 225<br>Direction: Outgoing<br>Distance: 16.07833015412596 km<br>Distance from Anchor: 3.8385594369217264 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.70799675441755,-73.75019412319779' target='_blank'>Google Maps</a></div>`)[0];
+                popup_49a3cd3bde04847b8a98a48cee19a371.setContent(html_1c8ef40f6ab881032f5db9a1c02e355a);
+            
+        
+
+        marker_56b9844a1c0879043347a9cfd4326c8c.bindPopup(popup_49a3cd3bde04847b8a98a48cee19a371)
+        ;
+
+        
+    
+    
+            var marker_6aae713808a5b45e76d3322ae0081bb4 = L.marker(
+                [40.73034103366829, -73.78092794280896],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_7520a05362b6de5e6d83e53c6c3db2fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6aae713808a5b45e76d3322ae0081bb4.setIcon(icon_7520a05362b6de5e6d83e53c6c3db2fb);
+        
+    
+        var popup_1b0a288600e0be1b6caaf06779cca60d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bedb5c5eb132acc3a891c2456c6c47a8 = $(`<div id="html_bedb5c5eb132acc3a891c2456c6c47a8" style="width: 100.0%; height: 100.0%;">Time: 2024-06-25 09:24:50<br>Number: +16477636097<br>Duration: 132<br>Direction: Outgoing<br>Distance: 3.591642770167292 km<br>Distance from Anchor: 1.079965798182478 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.73034103366829,-73.78092794280896' target='_blank'>Google Maps</a></div>`)[0];
+                popup_1b0a288600e0be1b6caaf06779cca60d.setContent(html_bedb5c5eb132acc3a891c2456c6c47a8);
+            
+        
+
+        marker_6aae713808a5b45e76d3322ae0081bb4.bindPopup(popup_1b0a288600e0be1b6caaf06779cca60d)
+        ;
+
+        
+    
+    
+            var marker_b41b1219c94584d24fcfdde37e0283ea = L.marker(
+                [40.72349581918581, -73.84542711680558],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_25c3770f4821d61f9e4c498af85b8216 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b41b1219c94584d24fcfdde37e0283ea.setIcon(icon_25c3770f4821d61f9e4c498af85b8216);
+        
+    
+        var popup_15aa0653db952066316259c01ed2385e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a03370f9ef78ab7a34add733c16432de = $(`<div id="html_a03370f9ef78ab7a34add733c16432de" style="width: 100.0%; height: 100.0%;">Time: 2024-06-26 19:16:00<br>Number: +13322539904<br>Duration: 108<br>Direction: Outgoing<br>Distance: 5.501751721708613 km<br>Distance from Anchor: 4.639011484778122 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72349581918581,-73.84542711680558' target='_blank'>Google Maps</a></div>`)[0];
+                popup_15aa0653db952066316259c01ed2385e.setContent(html_a03370f9ef78ab7a34add733c16432de);
+            
+        
+
+        marker_b41b1219c94584d24fcfdde37e0283ea.bindPopup(popup_15aa0653db952066316259c01ed2385e)
+        ;
+
+        
+    
+    
+            var marker_4a250179ee50ff46e44179df6809df89 = L.marker(
+                [40.69310366389499, -73.78737563446668],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_2ee1f635a190e4893c594ae036edd2c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a250179ee50ff46e44179df6809df89.setIcon(icon_2ee1f635a190e4893c594ae036edd2c4);
+        
+    
+        var popup_6b1e2954a79a15236f2e8bf639c8be64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d29fc185b5292ef8d9033162ed783a93 = $(`<div id="html_d29fc185b5292ef8d9033162ed783a93" style="width: 100.0%; height: 100.0%;">Time: 2024-06-27 10:15:05<br>Number: +16469318193<br>Duration: 99<br>Direction: Incoming<br>Distance: 5.954487087645194 km<br>Distance from Anchor: 3.431638902872324 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.69310366389499,-73.78737563446668' target='_blank'>Google Maps</a></div>`)[0];
+                popup_6b1e2954a79a15236f2e8bf639c8be64.setContent(html_d29fc185b5292ef8d9033162ed783a93);
+            
+        
+
+        marker_4a250179ee50ff46e44179df6809df89.bindPopup(popup_6b1e2954a79a15236f2e8bf639c8be64)
+        ;
+
+        
+    
+    
+            var marker_01f0547a18d8aa19ec2b09214b5d2c9c = L.marker(
+                [40.751200814233265, -73.78537318216281],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_44a766e53da2dc825ae08dc3d5f15da3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01f0547a18d8aa19ec2b09214b5d2c9c.setIcon(icon_44a766e53da2dc825ae08dc3d5f15da3);
+        
+    
+        var popup_5ad2d086f0a8f278d45b8b7caddded97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c981e17a4cd652a2f53b70a06c36988 = $(`<div id="html_4c981e17a4cd652a2f53b70a06c36988" style="width: 100.0%; height: 100.0%;">Time: 2024-06-27 11:50:04<br>Number: +16469256651<br>Duration: 56<br>Direction: Outgoing<br>Distance: 6.453821667696971 km<br>Distance from Anchor: 3.061311025600942 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.751200814233265,-73.78537318216281' target='_blank'>Google Maps</a></div>`)[0];
+                popup_5ad2d086f0a8f278d45b8b7caddded97.setContent(html_4c981e17a4cd652a2f53b70a06c36988);
+            
+        
+
+        marker_01f0547a18d8aa19ec2b09214b5d2c9c.bindPopup(popup_5ad2d086f0a8f278d45b8b7caddded97)
+        ;
+
+        
+    
+    
+            var marker_ececb7871e8afd7d705dcd3af885017b = L.marker(
+                [40.768821104273705, -73.7947882369462],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_8a2db8935d8d43981e3d4911314b9ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ececb7871e8afd7d705dcd3af885017b.setIcon(icon_8a2db8935d8d43981e3d4911314b9ae3);
+        
+    
+        var popup_71e9594a6b8670cbaccf6b8697519d5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1b6c7005ebc7082bfd3c0aacbf1088c = $(`<div id="html_f1b6c7005ebc7082bfd3c0aacbf1088c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-27 16:02:37<br>Number: +16469318193<br>Duration: 182<br>Direction: Incoming<br>Distance: 2.1120571398238432 km<br>Distance from Anchor: 4.999999999998419 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.768821104273705,-73.7947882369462' target='_blank'>Google Maps</a></div>`)[0];
+                popup_71e9594a6b8670cbaccf6b8697519d5d.setContent(html_f1b6c7005ebc7082bfd3c0aacbf1088c);
+            
+        
+
+        marker_ececb7871e8afd7d705dcd3af885017b.bindPopup(popup_71e9594a6b8670cbaccf6b8697519d5d)
+        ;
+
+        
+    
+    
+            var marker_9e0942ffd96542671480d01f83ae49ad = L.marker(
+                [40.71101177388543, -73.79505743641074],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_9e6eee49ad6935e7829c9b58d32598ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e0942ffd96542671480d01f83ae49ad.setIcon(icon_9e6eee49ad6935e7829c9b58d32598ac);
+        
+    
+        var popup_11f914b410ab2fb7747d4204b81f1f12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_748983f71538fc49432abe23f04ed79c = $(`<div id="html_748983f71538fc49432abe23f04ed79c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-28 04:07:23<br>Number: +16464219574<br>Duration: 95<br>Direction: Outgoing<br>Distance: 6.419701897437885 km<br>Distance from Anchor: 1.48305779319904 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.71101177388543,-73.79505743641074' target='_blank'>Google Maps</a></div>`)[0];
+                popup_11f914b410ab2fb7747d4204b81f1f12.setContent(html_748983f71538fc49432abe23f04ed79c);
+            
+        
+
+        marker_9e0942ffd96542671480d01f83ae49ad.bindPopup(popup_11f914b410ab2fb7747d4204b81f1f12)
+        ;
+
+        
+    
+    
+            var marker_929b23d2307f986bea71b3377200bd79 = L.marker(
+                [40.71697631309215, -73.78318628332453],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_500d71247dbf61524647c192abe4e9d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_929b23d2307f986bea71b3377200bd79.setIcon(icon_500d71247dbf61524647c192abe4e9d0);
+        
+    
+        var popup_70541028ec892d34732128203f4111b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcd5e2d0a39abc5ca493d71ce7cb7c42 = $(`<div id="html_dcd5e2d0a39abc5ca493d71ce7cb7c42" style="width: 100.0%; height: 100.0%;">Time: 2024-06-28 10:04:13<br>Number: +16477636097<br>Duration: 198<br>Direction: Outgoing<br>Distance: 1.2020371686820028 km<br>Distance from Anchor: 0.9886426990431065 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.71697631309215,-73.78318628332453' target='_blank'>Google Maps</a></div>`)[0];
+                popup_70541028ec892d34732128203f4111b3.setContent(html_dcd5e2d0a39abc5ca493d71ce7cb7c42);
+            
+        
+
+        marker_929b23d2307f986bea71b3377200bd79.bindPopup(popup_70541028ec892d34732128203f4111b3)
+        ;
+
+        
+    
+    
+            var marker_033467a9ac635aec89534feb4b5ac218 = L.marker(
+                [40.723234524317476, -73.78259442905144],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_762da43c19256f514c6ce9df8cd196d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_033467a9ac635aec89534feb4b5ac218.setIcon(icon_762da43c19256f514c6ce9df8cd196d7);
+        
+    
+        var popup_9b4d7d913e5af7ba9a5c026fd3751c8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fdf51e7d1f624c125fa3733b959094f = $(`<div id="html_8fdf51e7d1f624c125fa3733b959094f" style="width: 100.0%; height: 100.0%;">Time: 2024-06-28 13:49:59<br>Number: +16469318193<br>Duration: 297<br>Direction: Incoming<br>Distance: 0.6967617278825038 km<br>Distance from Anchor: 0.6739005601117213 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.723234524317476,-73.78259442905144' target='_blank'>Google Maps</a></div>`)[0];
+                popup_9b4d7d913e5af7ba9a5c026fd3751c8d.setContent(html_8fdf51e7d1f624c125fa3733b959094f);
+            
+        
+
+        marker_033467a9ac635aec89534feb4b5ac218.bindPopup(popup_9b4d7d913e5af7ba9a5c026fd3751c8d)
+        ;
+
+        
+    
+    
+            var marker_aa7fb573ba6a6ba04a033433c5304729 = L.marker(
+                [40.75771982050767, -73.79824005730474],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_866a4b913edd3528052a14cd4d1ba272 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa7fb573ba6a6ba04a033433c5304729.setIcon(icon_866a4b913edd3528052a14cd4d1ba272);
+        
+    
+        var popup_2c958d814a9f5e807f73d054fb2bc01d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f9dff47dcef6904c9893bef6e0c0c11 = $(`<div id="html_6f9dff47dcef6904c9893bef6e0c0c11" style="width: 100.0%; height: 100.0%;">Time: 2024-06-28 17:10:11<br>Number: +16469318193<br>Duration: 300<br>Direction: Incoming<br>Distance: 4.05115286346222 km<br>Distance from Anchor: 3.8103983062578437 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.75771982050767,-73.79824005730474' target='_blank'>Google Maps</a></div>`)[0];
+                popup_2c958d814a9f5e807f73d054fb2bc01d.setContent(html_6f9dff47dcef6904c9893bef6e0c0c11);
+            
+        
+
+        marker_aa7fb573ba6a6ba04a033433c5304729.bindPopup(popup_2c958d814a9f5e807f73d054fb2bc01d)
+        ;
+
+        
+    
+    
+            var marker_12cef7ef2bc62d677ece340268a8a649 = L.marker(
+                [40.725540558847726, -73.77246003843801],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_b098fa8ee30855f47117a4f553e32642 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12cef7ef2bc62d677ece340268a8a649.setIcon(icon_b098fa8ee30855f47117a4f553e32642);
+        
+    
+        var popup_325595130b8877bac160b443f4ed31ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd1d437abeef22a1fd648b06a12ad737 = $(`<div id="html_cd1d437abeef22a1fd648b06a12ad737" style="width: 100.0%; height: 100.0%;">Time: 2024-06-28 18:59:04<br>Number: +13322539904<br>Duration: 153<br>Direction: Outgoing<br>Distance: 4.184615929093077 km<br>Distance from Anchor: 1.5365257522748779 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.725540558847726,-73.77246003843801' target='_blank'>Google Maps</a></div>`)[0];
+                popup_325595130b8877bac160b443f4ed31ca.setContent(html_cd1d437abeef22a1fd648b06a12ad737);
+            
+        
+
+        marker_12cef7ef2bc62d677ece340268a8a649.bindPopup(popup_325595130b8877bac160b443f4ed31ca)
+        ;
+
+        
+    
+    
+            var marker_d2488fb535eb4dcb32969aa6bcca67f7 = L.marker(
+                [40.690067045228766, -73.83148312982912],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_e700de715026f6dd0b80750f1aaec880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2488fb535eb4dcb32969aa6bcca67f7.setIcon(icon_e700de715026f6dd0b80750f1aaec880);
+        
+    
+        var popup_ccb61fbd740dde972a0a947a797cf16b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beeb5206ce86cae69d3ccb30fd442200 = $(`<div id="html_beeb5206ce86cae69d3ccb30fd442200" style="width: 100.0%; height: 100.0%;">Time: 2024-06-28 22:52:14<br>Number: +16464219574<br>Duration: 177<br>Direction: Outgoing<br>Distance: 6.355773280544245 km<br>Distance from Anchor: 5.109712797495171 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.690067045228766,-73.83148312982912' target='_blank'>Google Maps</a></div>`)[0];
+                popup_ccb61fbd740dde972a0a947a797cf16b.setContent(html_beeb5206ce86cae69d3ccb30fd442200);
+            
+        
+
+        marker_d2488fb535eb4dcb32969aa6bcca67f7.bindPopup(popup_ccb61fbd740dde972a0a947a797cf16b)
+        ;
+
+        
+    
+    
+            var marker_1dd73cd694bb7b7a8766f368ec386a14 = L.marker(
+                [40.6647839556401, -73.81999076669057],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_fd9c7a092523b3fbc306ec4313bf145a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1dd73cd694bb7b7a8766f368ec386a14.setIcon(icon_fd9c7a092523b3fbc306ec4313bf145a);
+        
+    
+        var popup_195c0b8dc6abd6580d8ab1423d578bfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5410eae5a46d315564cc9d89ac7b5046 = $(`<div id="html_5410eae5a46d315564cc9d89ac7b5046" style="width: 100.0%; height: 100.0%;">Time: 2024-06-29 00:37:20<br>Number: +19177498838<br>Duration: 93<br>Direction: Outgoing<br>Distance: 2.9709938630675374 km<br>Distance from Anchor: 7.022749143408255 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.6647839556401,-73.81999076669057' target='_blank'>Google Maps</a></div>`)[0];
+                popup_195c0b8dc6abd6580d8ab1423d578bfb.setContent(html_5410eae5a46d315564cc9d89ac7b5046);
+            
+        
+
+        marker_1dd73cd694bb7b7a8766f368ec386a14.bindPopup(popup_195c0b8dc6abd6580d8ab1423d578bfb)
+        ;
+
+        
+    
+    
+            var marker_40e761467a51891a0d1208fb8153d015 = L.marker(
+                [40.712652858280535, -73.78741863826401],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_b74c3b95ec6cc6398d5b72d519073aad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40e761467a51891a0d1208fb8153d015.setIcon(icon_b74c3b95ec6cc6398d5b72d519073aad);
+        
+    
+        var popup_ba47a8ed0595f20c536692d915ec0347 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bc2fc0241f1bc7bd0eac70235ca238e = $(`<div id="html_5bc2fc0241f1bc7bd0eac70235ca238e" style="width: 100.0%; height: 100.0%;">Time: 2024-06-29 21:33:30<br>Number: +16477636097<br>Duration: 288<br>Direction: Outgoing<br>Distance: 5.986471407988841 km<br>Distance from Anchor: 1.2776057442985576 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.712652858280535,-73.78741863826401' target='_blank'>Google Maps</a></div>`)[0];
+                popup_ba47a8ed0595f20c536692d915ec0347.setContent(html_5bc2fc0241f1bc7bd0eac70235ca238e);
+            
+        
+
+        marker_40e761467a51891a0d1208fb8153d015.bindPopup(popup_ba47a8ed0595f20c536692d915ec0347)
+        ;
+
+        
+    
+    
+            var marker_f4ecb80a03bd19477bffe8ad081dc01c = L.marker(
+                [40.61867754634067, -73.72747097645123],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_e372f629b1b024744b3d725de00a49dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f4ecb80a03bd19477bffe8ad081dc01c.setIcon(icon_e372f629b1b024744b3d725de00a49dd);
+        
+    
+        var popup_d41be1f46e4a27e064e89df790a5ef51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cae4b6d117042a9a683b47fc6d58083c = $(`<div id="html_cae4b6d117042a9a683b47fc6d58083c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-29 23:34:49<br>Number: +16477636097<br>Duration: 58<br>Direction: Outgoing<br>Distance: 11.601726605353424 km<br>Distance from Anchor: 12.844664066815298 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.61867754634067,-73.72747097645123' target='_blank'>Google Maps</a></div>`)[0];
+                popup_d41be1f46e4a27e064e89df790a5ef51.setContent(html_cae4b6d117042a9a683b47fc6d58083c);
+            
+        
+
+        marker_f4ecb80a03bd19477bffe8ad081dc01c.bindPopup(popup_d41be1f46e4a27e064e89df790a5ef51)
+        ;
+
+        
+    
+    
+            var marker_0ba6bafd771e8c1562c72fcb70734a4a = L.marker(
+                [40.767884600900864, -73.89152462587262],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_b565def6b23f82d53e1aad4048447f7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ba6bafd771e8c1562c72fcb70734a4a.setIcon(icon_b565def6b23f82d53e1aad4048447f7c);
+        
+    
+        var popup_7d971a9fb6fb3d6c02a0e2a1721e69a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2644a9af3c1337dfda6387ba263eab1d = $(`<div id="html_2644a9af3c1337dfda6387ba263eab1d" style="width: 100.0%; height: 100.0%;">Time: 2024-06-30 13:39:14<br>Number: +16469318193<br>Duration: 154<br>Direction: Incoming<br>Distance: 21.60590394480522 km<br>Distance from Anchor: 9.829209734215373 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.767884600900864,-73.89152462587262' target='_blank'>Google Maps</a></div>`)[0];
+                popup_7d971a9fb6fb3d6c02a0e2a1721e69a1.setContent(html_2644a9af3c1337dfda6387ba263eab1d);
+            
+        
+
+        marker_0ba6bafd771e8c1562c72fcb70734a4a.bindPopup(popup_7d971a9fb6fb3d6c02a0e2a1721e69a1)
+        ;
+
+        
+    
+    
+            var marker_6e7fdf131dbc0525e69bda5a79deb15b = L.marker(
+                [40.6418673028497, -73.89297222394143],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_3ecdfadb4af073b371caab957b44f934 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e7fdf131dbc0525e69bda5a79deb15b.setIcon(icon_3ecdfadb4af073b371caab957b44f934);
+        
+    
+        var popup_f537443e0d2ca347490a874b9673d99a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7069052ecba880033456e352aab9d80c = $(`<div id="html_7069052ecba880033456e352aab9d80c" style="width: 100.0%; height: 100.0%;">Time: 2024-06-30 18:27:33<br>Number: +16469256651<br>Duration: 156<br>Direction: Outgoing<br>Distance: 13.994529823755686 km<br>Distance from Anchor: 12.570685405310448 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.6418673028497,-73.89297222394143' target='_blank'>Google Maps</a></div>`)[0];
+                popup_f537443e0d2ca347490a874b9673d99a.setContent(html_7069052ecba880033456e352aab9d80c);
+            
+        
+
+        marker_6e7fdf131dbc0525e69bda5a79deb15b.bindPopup(popup_f537443e0d2ca347490a874b9673d99a)
+        ;
+
+        
+    
+    
+            var marker_63b5d8589a08e03dbeadab01ec63b83c = L.marker(
+                [40.702427777536386, -73.82957651442067],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_1ffd7747f5bae80d23de7c7ac9af0183 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63b5d8589a08e03dbeadab01ec63b83c.setIcon(icon_1ffd7747f5bae80d23de7c7ac9af0183);
+        
+    
+        var popup_a2dba858f90665709fa7eb147018861c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01b2153e1e4cdcf251c05571599e950b = $(`<div id="html_01b2153e1e4cdcf251c05571599e950b" style="width: 100.0%; height: 100.0%;">Time: 2024-06-30 23:46:51<br>Number: +13322539904<br>Duration: 148<br>Direction: Outgoing<br>Distance: 8.599889739762926 km<br>Distance from Anchor: 4.072291481809831 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.702427777536386,-73.82957651442067' target='_blank'>Google Maps</a></div>`)[0];
+                popup_a2dba858f90665709fa7eb147018861c.setContent(html_01b2153e1e4cdcf251c05571599e950b);
+            
+        
+
+        marker_63b5d8589a08e03dbeadab01ec63b83c.bindPopup(popup_a2dba858f90665709fa7eb147018861c)
+        ;
+
+        
+    
+    
+            var marker_ee9722038ec5f4e62a570518ac6d9180 = L.marker(
+                [40.72613827046596, -73.78296344207511],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_f6b39ab156cdcf861f9b26ff12268dab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee9722038ec5f4e62a570518ac6d9180.setIcon(icon_f6b39ab156cdcf861f9b26ff12268dab);
+        
+    
+        var popup_9a42c84aa91c0b58642ccb1a4d034af4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_354d9e1f1bbe41cf6133dc46e6e734d1 = $(`<div id="html_354d9e1f1bbe41cf6133dc46e6e734d1" style="width: 100.0%; height: 100.0%;">Time: 2024-07-02 03:39:36<br>Number: +16477636097<br>Duration: 231<br>Direction: Outgoing<br>Distance: 4.737720760280063 km<br>Distance from Anchor: 0.6846343830088681 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72613827046596,-73.78296344207511' target='_blank'>Google Maps</a></div>`)[0];
+                popup_9a42c84aa91c0b58642ccb1a4d034af4.setContent(html_354d9e1f1bbe41cf6133dc46e6e734d1);
+            
+        
+
+        marker_ee9722038ec5f4e62a570518ac6d9180.bindPopup(popup_9a42c84aa91c0b58642ccb1a4d034af4)
+        ;
+
+        
+    
+    
+            var marker_041d95387017b505706953cc6e8c849a = L.marker(
+                [40.72171328983762, -73.7821000842547],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_1c672692017005a33c182450040b49d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_041d95387017b505706953cc6e8c849a.setIcon(icon_1c672692017005a33c182450040b49d2);
+        
+    
+        var popup_da2345b3fb95ace9cf0b347cac6f8352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7cabc40d893a06550a32bd517b95848 = $(`<div id="html_c7cabc40d893a06550a32bd517b95848" style="width: 100.0%; height: 100.0%;">Time: 2024-07-03 00:10:57<br>Number: +16469256651<br>Duration: 81<br>Direction: Outgoing<br>Distance: 0.4967719358366556 km<br>Distance from Anchor: 0.7522176916461167 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72171328983762,-73.7821000842547' target='_blank'>Google Maps</a></div>`)[0];
+                popup_da2345b3fb95ace9cf0b347cac6f8352.setContent(html_c7cabc40d893a06550a32bd517b95848);
+            
+        
+
+        marker_041d95387017b505706953cc6e8c849a.bindPopup(popup_da2345b3fb95ace9cf0b347cac6f8352)
+        ;
+
+        
+    
+    
+            var marker_67b3a3cfab3b20a2acb0c4887115268c = L.marker(
+                [40.72239748710572, -73.8052460397772],
+                {}
+            ).addTo(map_fbaf0272b51c89eb4769066a74209f37);
+        
+    
+            var icon_a693eefd046a91ddbd1cb74753a63404 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_67b3a3cfab3b20a2acb0c4887115268c.setIcon(icon_a693eefd046a91ddbd1cb74753a63404);
+        
+    
+        var popup_5b0b58a3dd97b7482e4e2056bfc0dd40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00e7b21ce30dcb9c035b33631c855885 = $(`<div id="html_00e7b21ce30dcb9c035b33631c855885" style="width: 100.0%; height: 100.0%;">Time: 2024-07-03 09:22:27<br>Number: +13322539904<br>Duration: 213<br>Direction: Outgoing<br>Distance: 1.9570222921981477 km<br>Distance from Anchor: 1.2554029711036279 km<br><a href='https://www.google.com/maps/search/?api=1&query=40.72239748710572,-73.8052460397772' target='_blank'>Google Maps</a></div>`)[0];
+                popup_5b0b58a3dd97b7482e4e2056bfc0dd40.setContent(html_00e7b21ce30dcb9c035b33631c855885);
+            
+        
+
+        marker_67b3a3cfab3b20a2acb0c4887115268c.bindPopup(popup_5b0b58a3dd97b7482e4e2056bfc0dd40)
+        ;
+
+        
+    
+</script>
+</html>

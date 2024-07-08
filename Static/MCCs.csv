@@ -1,0 +1,602 @@
+﻿MCC,MNC,Brand,Operator,Status
+302,100,dotmobile,Data on Tap Inc.,Unknown
+302,130,Xplore,Xplore Inc.,Operational
+302,131,Xplore,Xplore Inc.,Operational
+302,140,Fibernetics,Fibernetics Corp.,Not Operational
+302,150,Cogeco,Cogeco Connexion Inc.,Unknown
+302,151,Cogeco,Cogeco Connexion Inc.,Unknown
+302,152,Cogeco,Cogeco Connexion Inc.,Unknown
+302,160,Sugar Mobile,Sugar Mobile Inc.,Operational
+302,220,"Telus Mobility, Koodo Mobile, Public Mobile",Telus Mobility,Operational
+302,221,Telus,Telus Mobility,Unknown
+302,222,Telus,Telus Mobility,Unknown
+302,230,ISP Telecom,ISP Telecom,Unknown
+302,250,Bell,Bell Mobility,Unknown
+302,270,EastLink,Bragg Communications,Operational
+302,290,Airtel Wireless,Airtel Wireless,Not operational
+302,300,ECOTEL,Ecotel inc.,Operational
+302,310,ECOTEL,Ecotel inc.,Operational
+302,320,Rogers Wireless,Rogers Communications,Operational
+302,330,Blue Canada,Blue Canada Wireless Inc.,Not operational
+302,340,Execulink,Execulink,Operational
+302,350,Naskapi,Naskapi Imuun Inc.,Unknown
+302,351,MPVWifi,MPVWifi Inc.,Operational
+302,352,Lyttonnet,Lytton Area Wireless Society,Operational
+302,353,SpeedFI,SpeedFI Inc.,Unknown
+302,360,MiKe,Telus Mobility,Not operational
+302,361,Telus,Telus Mobility,Not operational
+302,370,Fido,Fido Solutions (Rogers Wireless),Operational
+302,380,Keewaytinook Mobile,Keewaytinook Okimakanak Mobile,Operational
+302,390,DMTS,Dryden Mobility,Not operational
+302,420,ABC,A.B.C. Allen Business Communications Ltd.,Operational
+302,480,Qiniq,SSi Connexions,Operational
+302,490,Freedom Mobile,Quebecor,Operational
+302,491,Freedom Mobile,Quebecor,Unknown
+302,500,Videotron,Videotron,Operational
+302,510,Videotron,Videotron,Operational
+302,520,Rogers (Vidéotron MOCN),Videotron,Operational
+302,530,Keewaytinook Mobile,Keewaytinook Okimakanak Mobile,Operational
+302,540,Rovvr Com,Rovvr Communications Inc.,Unknown
+302,550,Star Solu,Star Solutions International Inc.,Unknown
+302,560,Lynx Mobility,Lynx Mobility,Not operational
+302,570,Ligado Ne,Ligado Networks Corp.,Unknown
+302,590,Quadro Mobility,Quadro Communications Co-op,Operational
+302,600,Iristel,Iristel,Unknown
+302,610,Bell Mobility,Bell Mobility,Operational
+302,620,ICE Wireless,ICE Wireless,Operational
+302,630,Aliant Mobility,Bell Aliant,Unknown
+302,640,Bell,Bell Mobility,Not operational
+302,650,TBaytel,Thunder Bay Telephone,Operational
+302,652,BC Tel Mo,BC Tel Mobility (Telus),Not operational
+302,653,Telus,Telus Mobility,Not operational
+302,655,MTS,Bell MTS,Not operational
+302,656,TBay,Thunder Bay Telephone Mobility,Not operational
+302,657,Telus,Telus Mobility,Not operational
+302,660,MTS,Bell MTS,Operational
+302,670,CityTel Mobility,CityWest,Unknown
+302,680,SaskTel,SaskTel Mobility,Operational
+302,681,SaskTel,SaskTel Mobility,Not operational
+302,690,Bell,Bell Mobility,Operational
+302,701,MB Tel Mo,MB Tel Mobility,Not operational
+302,702,MT&T Mobi,MT&T Mobility (Aliant),Not operational
+302,703,New Tel M,New Tel Mobility (Aliant),Not operational
+302,710,Globalstar,Globstar,Operational
+302,720,Rogers Wireless,Rogers Communications,Operational
+302,721,Rogers Wireless,Rogers Communications,Unknown
+302,730,TerreStar Solutions,TerreStar Networks,Unknown
+302,740,Rogers Wireless,Rogers Communications,Unknown
+302,741,Rogers Wireless,Rogers Communications,Unknown
+302,750,SaskTel,SaskTel Mobility,Unknown
+302,760,Public Mobile,Telus Mobility,Operational
+302,770,TNW Wireless,TNW Wireless Inc.,Operational
+302,780,SaskTel,SaskTel Mobility,Operational
+302,781,SaskTel,SaskTel Mobility,Not operational
+302,790,NetSet Co,NetSet Communications,Operational
+302,820,Rogers Wireless,Rogers Communications,Unknown
+302,848,Vocom Int,"Vocom International Telecommunications, Inc",Unknown
+302,860,Telus,Telus Mobility,Unknown
+302,880,Bell / Telus / SaskTel,"Shared Telus, Bell, and SaskTel",Operational
+302,910,Halton Re,Halton Regional Police Service,Operational
+302,911,Halton Re,Halton Regional Police Service,Operational
+302,920,Rogers Wireless,Rogers Communications,Not operational
+302,940,Wightman Mobility,Wightman Telecom,Operational
+302,990,Ericsson ,Ericsson Canada,Unknown
+302,991,Halton Re,Halton Regional Police Service,Unknown
+302,996,Powertech,Powertech Labs,Unknown
+302,997,Powertech,Powertech Labs,Not operational
+302,998,Institut ,Institut de Recherche d’Hydro-Québec,Unknown
+313,720,,"1st Point Communications, LLC",Unknown
+313,830,,360 Communications,Unknown
+313,150,FirstNet,700 MHz Public Safety Broadband,Unknown
+313,160,FirstNet,700 MHz Public Safety Broadband,Unknown
+313,170,FirstNet,700 MHz Public Safety Broadband,Unknown
+313,180,FirstNet,700 MHz Public Safety Broadband,Unknown
+313,190,FirstNet,700 MHz Public Safety Broadband,Unknown
+312,500,,AB Spectrum LLC,Not operational
+312,70,,Adams Networks Inc,Not operational
+310,880,DTC Wireless,"Advantage Cellular Systems, Inc.",Operational
+310,850,Aeris,"Aeris Communications, Inc.",Operational
+314,500,,Aetheros Inc.,Unknown
+314,530,,Agile Networks,Operational
+314,320,,"Agri-Valley Communications, Inc",Unknown
+310,34,Airpeak,Airpeak,Operational
+310,50,GCI,Alaska Communications,Operational
+310,190,GCI,Alaska Communications,Operational
+312,880,,Albemarle County Public Schools,Unknown
+310,54,,Alltel US,Operational
+313,390,,"Altice USA Wireless, Inc.",Unknown
+311,770,,"Altiostar Networks, Inc.",Unknown
+313,700,,Ameren Services Company,Unknown
+311,780,ASTCA,American Samoa Telecommunications Authority,Operational
+311,30,Indigo Wireless,Americell PA 3 Partnership,Not operational
+313,860,Nextlink,AMG Technology Investment Group,Operational
+312,520,,ANIN,Not operational
+313,410,,Anterix,Unknown
+310,710,ASTAC,Arctic Slope Telephone Association Cooperative,Operational
+312,760,ASTAC,Arctic Slope Telephone Association Cooperative,Not operational
+312,750,,Artemis Networks LLC,Unknown
+313,440,,"Arvig Enterprises, Inc.",Unknown
+312,210,,"Aspenta International, Inc.",Operational
+313,100,FirstNet,AT&T FirstNet,Operational
+313,110,FirstNet,AT&T FirstNet,Unknown
+313,120,FirstNet,AT&T FirstNet,Unknown
+313,130,FirstNet,AT&T FirstNet,Unknown
+313,140,FirstNet,AT&T FirstNet,Unknown
+310,16,AT&T,AT&T Mobility,Not operational
+310,30,AT&T,AT&T Mobility,Not operational
+310,70,AT&T,AT&T Mobility,Operational
+310,80,AT&T,AT&T Mobility,Operational
+310,90,AT&T,AT&T Mobility,Operational
+310,150,AT&T,AT&T Mobility,Operational
+310,170,AT&T,AT&T Mobility,Operational
+310,280,AT&T,AT&T Mobility,Not operational
+310,380,AT&T,AT&T Mobility,Not operational
+310,410,AT&T,AT&T Mobility,Operational
+310,560,AT&T,AT&T Mobility,Not operational
+310,670,AT&T,AT&T Mobility,Unknown
+310,680,AT&T,AT&T Mobility,Operational
+310,950,AT&T,AT&T Mobility,Operational
+311,70,AT&T,AT&T Mobility,Operational
+311,90,AT&T,AT&T Mobility,Operational
+311,180,AT&T,AT&T Mobility,Not operational
+311,190,AT&T,AT&T Mobility,Unknown
+312,90,AT&T,AT&T Mobility,Unknown
+312,680,AT&T,AT&T Mobility,Unknown
+313,210,AT&T,AT&T Mobility,Unknown
+312,670,FirstNet,AT&T Mobility,Operational
+313,30,,AT&T Mobility,Unknown
+314,260,,AT&T Mobility,Unknown
+314,270,,AT&T Mobility,Unknown
+314,390,,AT&T Mobility,Unknown
+314,30,,Baicells Technologies North America Inc.,Unknown
+311,970,Big River Broadband,"Big River Broadband, LLC",Operational
+311,130,,Black & Veatch,Not operational
+313,270,,Blackstar Management,Not operational
+314,10,,Boingo Wireless Inc.,Unknown
+313,560,,Boldyn Networks US,Operational
+312,650,,Brightlink,Unknown
+312,810,BBCP,Bristol Bay Telephone Cooperative,Operational
+312,540,,Broadband In Hand LLC,Not operational
+310,570,,"Broadpoint, LLC",Operational
+312,570,Blue Wireless,"Buffalo-Lake Erie Wireless Systems Co., LLC",Not operational
+311,330,Bug Tussel Wireless,Bug Tussel Wireless LLC,Operational
+310,900,Mid-Rivers Wireless,Cable & Communications Corporation,Not operational
+312,450,,Cable & Communications Corporation,Unknown
+313,310,,"CAL.NET, Inc.",Not operational
+313,20,CTC Wireless,Cambridge Telephone Company Inc.,Operational
+310,130,Carolina West Wireless,Carolina West Wireless,Operational
+312,470,Carolina West Wireless,Carolina West Wireless,Operational
+313,840,,CellBlox Acquisitions,Unknown
+313,750,ZipLink,"CellTex Networks, LLC",Unknown
+310,360,Pioneer Cellular,Cellular Network Partnership,Not operational
+312,270,Pioneer Cellular,Cellular Network Partnership,Not operational
+312,280,Pioneer Cellular,Cellular Network Partnership,Not operational
+313,570,Pioneer Cellular,Cellular Network Partnership,Not operational
+314,400,C Spire,Cellular South Inc,Unknown
+311,230,C Spire,Cellular South Inc.,Operational
+311,630,C Spire,Cellular South Inc.,Unknown
+313,330,,CenturyTel Broadband Services LLC,Unknown
+311,10,Chariton Valley,Chariton Valley Communications,Not operational
+312,10,Chariton Valley,"Chariton Valley Communications Corporation, Inc",Not operational
+312,220,Chariton Valley,"Chariton Valley Communications Corporation, Inc.",Not operational
+313,650,,"Chevron USA, Inc.",Unknown
+313,950,,Cheyenne and Arapaho Development Group,Unknown
+314,380,CCR,"Circle Computer Resources, Inc.",Unknown
+312,890,,Circle Gx,Unknown
+312,800,,Cirrus Core Networks,Unknown
+315,10,CBRS,Citizens Broadband Radio Service,Unknown
+312,310,,"Clear Stream Communications, LLC",Operational
+312,100,,"ClearSky Technologies, Inc.",Unknown
+312,140,Revol Wireless,"Cleveland Unlimited, Inc.",Not operational
+311,540,,"Coeur Rochester, Inc",Unknown
+311,790,,"Coleman County Telephone Cooperative, Inc.",Unknown
+311,40,Choice Wireless,Commnet Wireless,Operational
+311,320,Choice Wireless,Commnet Wireless,Operational
+312,370,Choice Wireless,Commnet Wireless,Operational
+310,630,Choice Wireless,Commnet Wireless LLC,Unknown
+311,550,Choice Wireless,Commnet Wireless LLC,Operational
+310,930,,Copper Valley Wireless,Not operational
+312,380,,Copper Valley Wireless,Operational
+311,240,,Cordova Wireless,Operational
+313,60,,Country Wireless,Operational
+313,61,,Country Wireless,Unknown
+312,60,,CoverageCo,Not operational
+311,930,,Cox Communications,Unknown
+314,420,,Cox Communications,Unknown
+311,140,Bravado Wireless,Cross Telephone Company,Operational
+310,700,Bigfoot Cellular,Cross Valiant Cellular Partnership,Unknown
+312,30,Bravado Wireless,Cross Wireless,Operational
+313,10,Bravado Wireless,Cross Wireless LLC,Unknown
+312,40,,Custer Telephone Co-op (CTCI),Operational
+312,950,,Custer Telephone Co-op (CTCI),Operational
+313,220,,Custer Telephone Co-op (CTCI),Unknown
+310,780,Dispatch Direct,D. D. Inc.,Not operational
+313,340,Dish,Dish Wireless,Operational
+313,350,Dish,Dish Wireless,Not operational
+313,360,Dish,Dish Wireless,Not operational
+311,200,,Dish Wireless,Unknown
+310,750,Appalachian Wireless,"East Kentucky Network, LLC",Not operational
+312,120,Appalachian Wireless,"East Kentucky Network, LLC",Operational
+312,130,Appalachian Wireless,"East Kentucky Network, LLC",Operational
+312,910,Appalachian Wireless,"East Kentucky Network, LLC",Unknown
+311,760,,Edigen Inc.,Not operational
+311,460,,Electric Imp Inc.,Not operational
+313,870,,ElektraFi LLC,Operational
+312,410,,"Eltopia Communications, LLC",Unknown
+314,340,e/marconi,E-Marconi LLC,Unknown
+311,950,ETC,Enhanced Telecommunications Corp.,Operational
+313,990,,Ericsson US,Unknown
+310,460,,Eseye,Unknown
+310,35,ETEX Wireless,"ETEX Communications, LP",Unknown
+314,350,,Evergy,Unknown
+310,990,Evolve Broadband,Evolve Cellular Inc.,Operational
+313,260,,Expeto Wireless Inc.,Operational
+313,710,,Extent Systems,Unknown
+310,311,,Farmers Wireless,Not operational
+312,900,ClearTalk,"Flat West Wireless, LLC",Operational
+311,750,ClearTalk,Flat Wireless LLC,Not operational
+312,860,ClearTalk,"Flat Wireless, LLC",Not operational
+313,520,,"Florida Broadband, Inc.",Not operational
+312,390,FTC Wireless,FTC Communications LLC,Operational
+312,50,,Fuego Wireless,Not operational
+313,240,Peak Internet,"Fundamental Holdings, Corp.",Unknown
+310,430,GCI,GCI Communications Corp.,Operational
+311,370,GCI Wireless,General Communication Inc.,Operational
+313,640,,Geoverse LLC,Unknown
+311,900,,GigSky,Operational
+312,870,,"GigSky Mobile, LLC",Operational
+312,790,,Gila Electronics,Unknown
+310,970,,Globalstar,Operational
+311,890,,Globecomm Network Services Corporation,Unknown
+312,620,,GlobeTouch Inc.,Operational
+312,580,,Google LLC,Unknown
+312,710,,Great North Woods Wireless LLC,Operational
+312,550,,"Great Plains Communications, Inc.",Not operational
+311,680,,GreenFly LLC,Unknown
+310,33,,Guam Telephone Authority,Unknown
+313,290,,Gulf Coast Broadband LLC,Unknown
+312,930,,"Hewlett-Packard Communication Services, LLC",Unknown
+314,430,,"Highway9 Networks, Inc",Unknown
+310,540,Phoenix,Hilliary Communications,Not operational
+313,760,,"Hologram, Inc.",Operational
+313,420,,Hudson Valley Wireless,Unknown
+313,660,,Hudson Valley Wireless,Unknown
+313,670,,Hudson Valley Wireless,Unknown
+313,680,,Hudson Valley Wireless,Unknown
+311,340,,Illinois Valley Cellular,Operational
+313,250,,Imperial County Office of Education,Unknown
+312,20,,"Infrastructure Networks, LLC",Operational
+310,580,,Inland Cellular Telephone Company,Operational
+313,820,,Inland Cellular Telephone Company,Operational
+312,970,,IOSAZ Intellectual Property LLC,Unknown
+311,410,Chat Mobility,Iowa RSA No. 2 LP,Not operational
+312,170,Chat Mobility,Iowa RSA No. 2 LP,Not operational
+310,300,Big Sky Mobile,"iSmart Mobile, LLC",Not operational
+310,400,IT&E Wireless,"IT&E Overseas, Inc",Not operational
+311,250,IT&E Wireless,"IT&E Overseas, Inc",Not operational
+310,920,,"James Valley Wireless, LLC",Operational
+310,650,Jasper,Jasper Technologies,Operational
+313,920,,JCI,Unknown
+312,440,,"Kajeet, Inc.",Unknown
+310,870,PACE,Kaplan Telephone Company,Not operational
+310,60,,Karrier One,Unknown
+312,740,Locus Telecommunications,"KDDI America, Inc.",Unknown
+312,460,,Ketchikan Public Utilities (KPU),Operational
+313,280,,"King Street Wireless, LP",Unknown
+312,830,,Kings County Office of Education,Operational
+311,310,NMobile,Leaco Rural Telephone Company Inc.,Not operational
+313,790,Liberty,Liberty Cablevision of Puerto Rico LLC,Operational
+313,630,,LICT Corporation,Unknown
+311,510,,Ligado Networks,Not operational
+311,160,,Lightsquared L.P.,Not operational
+311,520,,Lightsquared L.P.,Not operational
+311,980,,LigTel Communications,Not operational
+312,180,,Limitless Mobile LLC,Operational
+310,340,Limitless Mobile,"Limitless Mobile, LLC",Operational
+310,690,Limitless Mobile,"Limitless Mobile, LLC",Operational
+311,600,Limitless Mobile,"Limitless Mobile, LLC",Operational
+314,580,,Lower Colorado River Authority,Unknown
+311,960,Lycamobile,Lycamobile USA Inc.,Not operational
+310,760,,Lynch 3G Communications Corporation,Not operational
+314,590,,"Lynk Global, Inc.",Operational
+312,960,,"M&A Technology, Inc.",Not operational
+311,720,,MainePCS LLC,Not operational
+314,470,MetTel,Manhattan Telecommunications Corporation LLC,Unknown
+313,50,Breakaway Wireless,"Manti Tele Communications Company, Inc.",Not operational
+312,980,,Mark Twain Communications Company,Unknown
+312,340,MTA,"Matanuska Telephone Association, Inc.",Not operational
+310,610,,Mavenir Systems Inc,Unknown
+311,570,,Mediacom,Unknown
+313,200,,Mercury Network Corporation,Not operational
+311,660,Metro,Metro by T-Mobile,Operational
+312,400,Mid-Rivers Wireless,Mid-Rivers Telephone Cooperative,Not operational
+311,0,West Central Wireless,Mid-Tex Cellular Ltd.,Not operational
+311,700,,Midwest Network Solutions Hub LLC,Not operational
+313,70,,Midwest Network Solutions Hub LLC,Unknown
+313,550,,Mile High Networks LLC,Operational
+316,700,,Mile High Networks LLC,Unknown
+311,20,Chariton Valley,Missouri RSA 5 Partnership,Not operational
+311,920,Chariton Valley,Missouri RSA 5 Partnership,Not operational
+310,40,Mobi,"Mobi, Inc.",Unknown
+311,500,mobi,"mobi, Inc.",Unknown
+313,460,mobi,"mobi, Inc.",Operational
+313,940,,Motorola Solutions,Unknown
+312,330,Nemont,"Nemont Communications, Inc.",Operational
+310,290,nep,NEP Cellcorp Inc.,Not operational
+312,630,,"NetGenuity, Inc.",Unknown
+311,380,,New Dimension Wireless Ltd.,Operational
+310,100,Plateau Wireless,New Mexico RSA 4 East LP,Operational
+310,600,Cellcom,NewCell Inc.,Not operational
+314,570,,Newmont Corporation,Unknown
+313,980,,Next Generation Application LLC,Not operational
+311,100,,Nex-Tech Wireless,Operational
+312,420,,Nex-Tech Wireless,Operational
+316,10,Nextel,Nextel Communications,Not operational
+311,300,,"Nexus Communications, Inc.",Not operational
+312,560,,NHLT Inc.,Not operational
+313,540,,Nokia Innovations US LLC,Unknown
+311,610,SRT Communications,North Dakota Network Co.,Not operational
+312,230,SRT Communications,North Dakota Network Co.,Not operational
+310,17,ProxTel,North Sight Communications Inc.,Not operational
+311,710,,Northeast Wireless Networks LLC,Not operational
+312,920,,Northeast Wireless Networks LLC,Not operational
+312,590,NMU,Northern Michigan University,Operational
+311,420,NorthwestCell,Northwest Missouri Cellular LP,Operational
+312,150,NorthwestCell,Northwest Missouri Cellular LP,Operational
+314,330,,Nova Labs Inc,Unknown
+310,510,Cellcom,Nsight,Unknown
+311,840,Cellcom,Nsight,Operational
+311,850,Cellcom,Nsight,Operational
+310,620,Cellcom,Nsighttel Wireless LLC,Unknown
+312,660,nTelos,nTelos Wireless,Not operational
+310,370,Docomo,NTT DoCoMo Pacific,Operational
+310,470,,NTT DoCoMo Pacific,Unknown
+313,40,NNTC Wireless,Nucla-Naturita Telephone Company,Operational
+310,440,,Numerex,Operational
+310,640,,Numerex,Operational
+314,450,,"NUWAVE Communications, Inc.",Unknown
+314,360,,"Oceus Networks, LLC",Unknown
+314,520,OG+E,Oklahoma Gas & Electric Company,Unknown
+313,620,,OmniProphis Corporation,Unknown
+312,850,,"Onvoy Spectrum, LLC",Unknown
+313,380,,OptimERA Inc.,Unknown
+311,560,OTZ Cellular,"OTZ Communications, Inc.",Operational
+310,810,,Pacific Lightwave Inc.,Unknown
+313,320,,Paladin Wireless,Unknown
+311,450,PTCI,Panhandle Telecommunication Systems Inc.,Operational
+314,410,,Peeringhub Inc,Unknown
+311,670,Pine Belt Wireless,Pine Belt Cellular Inc.,Operational
+311,80,Pine Cellular,Pine Telephone Company,Operational
+310,790,BLAZE,PinPoint Communications Inc.,Not operational
+311,290,BLAZE,PinPoint Communications Inc.,Not operational
+313,610,,"Point Broadband Fiber Holding, LLC",Unknown
+314,280,,Pollen Mobile LLC,Unknown
+312,990,Premier Broadband,Premier Holdings LLC,Not operational
+314,560,Cape,"Private Tech, Inc.",Unknown
+311,730,,Proximiti Mobility Inc.,Not opearational
+310,32,IT&E Wireless,PTI Pacifica Inc.,Operational
+310,110,IT&E Wireless,PTI Pacifica Inc.,Operational
+310,480,IT&E Wireless,PTI Pacifica Inc.,Operational
+311,120,IT&E Wireless,PTI Pacifica Inc.,Operational
+310,500,Alltel,Public Service Cellular Inc.,Operational
+313,510,Claro,Puerto Rico Telephone Company,Operational
+313,490,,"Puloli, Inc.",Unknown
+313,480,,"Ready Wireless, LLC",Unknown
+314,550,REALLY,Really Communications,Operational
+313,370,,"Red Truck Wireless, LLC",Unknown
+312,780,,Redzone Wireless,Operational
+314,540,RGTN,RGTN USA Inc.,Operational
+311,820,,Ribbon Communications,Unknown
+311,430,Chat Mobility,RSA 1 LP,Unknown
+312,160,Chat Mobility,RSA1 Limited Partnership,Operational
+312,320,,RTC Communications LLC,Operational
+313,740,,"RTO Wireless, LLC",Unknown
+311,350,Nemont,"Sagebrush Cellular, Inc.",Operational
+312,480,Nemont,"Sagebrush Cellular, Inc.",Unknown
+312,600,Nemont,"Sagebrush Cellular, Inc.",Unknown
+312,640,Nemont,"Sagebrush Cellular, Inc.",Not operational
+313,910,,San Diego Gas & Electric,Unknown
+313,470,,San Diego Gas & Electric Company,Unknown
+312,820,,"Santel Communications Cooperative, Inc.",Not operational
+314,220,,Securus Technologies,Unknown
+312,610,,ShawnTech Communications,Unknown
+313,500,,"Shelcomm, Inc.",Unknown
+313,690,,"Shenandoah Cable Television, LLC",Operational
+313,880,,Shuttle Wireless,Unknown
+311,910,MobileNation,SI Wireless LLC,Not operational
+314,510,,SI Wireless LLC,Unknown
+312,430,,Silver Star Communications,Operational
+310,320,Cellular One,"Smith Bagley, Inc.",Operational
+313,850,,"Softcom Internet Communications, Inc",Operational
+312,80,SyncSouth,South Georgia Regional Information Technology Authority,Operational
+312,840,,South Georgia Regional Information Technology Authority,Unknown
+313,300,,Southern California Edison,Unknown
+314,300,,Southern California Edison,Unknown
+310,15,Southern LINC,Southern Communications,Unknown
+312,720,Southern LINC,Southern Communications Services,Operational
+316,11,Southern LINC,Southern Communications Services,Not operational
+313,590,Southern LINC,"Southern Communications Services, Inc.",Unknown
+314,90,,Southern LINC,Unknown
+311,60,,Space Data Corporation,Operational
+313,450,,"Spectrum Wireless Holdings, LLC",Unknown
+314,20,,"Spectrum Wireless Holdings, LLC",Unknown
+313,80,,Speedwavz LLP,Operational
+312,240,Sprint,Sprint Corporation,Not operational
+313,600,,ST Engineering iDirect,Not operational
+313,930,Rock Wireless,Standing Rock Telecom,Operational
+311,640,Rock Wireless,Standing Rock Telecommunications,Operational
+311,360,,Stelera Wireless,Not operational
+310,550,,Syniverse Technologies,Unknown
+310,720,,Syniverse Technologies,Unknown
+311,170,,Tampnet,Operational
+313,770,Mobile-X,Tango Networks,Operational
+312,690,,"Tecore Global Services, LLC",Operational
+314,440,,"Tecore Global Services, LLC",Unknown
+311,740,,Telalaska Cellular,Operational
+311,690,,TeleBEEPER of New Mexico,Operational
+313,580,,Telecall Telecommunications Corp.,Unknown
+310,840,telna Mobile,"Telecom North America Mobile, Inc.",Operational
+312,300,telna Mobile,"Telecom North America Mobile, Inc.",Operational
+314,210,,Telecom Resource Center,Unknown
+310,140,GTA Wireless,"Teleguam Holdings, LLC",Operational
+311,210,,Telnyx LLC,Operational
+313,0,,Tennessee Wireless,Not operational
+314,310,,Terranet,Unknown
+311,620,,"TerreStar Networks, Inc.",Not operational
+314,370,ITEC,Texas A&M University,Unknown
+314,60,,Texas A&M University,Unknown
+314,70,,Texas A&M University,Unknown
+314,80,,Texas A&M University,Unknown
+314,460,,Texas A&M University,Unknown
+312,110,,Texas Energy Network LLC,Not operational
+310,980,Peoples Telephone,Texas RSA 7B3,Not operational
+313,400,,"Texoma Communications, LLC",Unknown
+311,50,,Thumb Cellular LP,Operational
+311,830,,Thumb Cellular LP,Operational
+310,200,,T-Mobile,Not operational
+310,210,,T-Mobile,Not operational
+310,220,,T-Mobile,Not operational
+310,230,,T-Mobile,Not operational
+310,240,,T-Mobile,Not operational
+310,250,,T-Mobile,Not operational
+310,270,,T-Mobile,Not operational
+310,310,,T-Mobile,Not operational
+310,490,,T-Mobile,Operational
+310,530,,T-Mobile,Unknown
+310,770,,T-Mobile,Unknown
+310,800,,T-Mobile,Not operational
+310,120,T-Mobile,T-Mobile US,Operational
+310,160,T-Mobile,T-Mobile US,Operational
+310,260,T-Mobile,T-Mobile US,Operational
+310,830,T-Mobile,T-Mobile US,Not operational
+311,260,T-Mobile,T-Mobile US,Not operational
+311,490,T-Mobile,T-Mobile US,Operational
+311,870,T-Mobile,T-Mobile US,Unknown
+311,880,T-Mobile,T-Mobile US,Unknown
+311,882,T-Mobile,T-Mobile US,Operational
+311,940,T-Mobile,T-Mobile US,Not operational
+312,190,T-Mobile,T-Mobile US,Unknown
+312,250,T-Mobile,T-Mobile US,Operational
+312,530,T-Mobile,T-Mobile US,Operational
+310,53,Virgin Mobile,T-Mobile US,Operational
+313,960,,"Townes 5G, LLC",Unknown
+314,230,,Trace-Tek LLC,Unknown
+310,520,TNS,Transaction Network Services,Unknown
+312,350,,Triangle Communication System Inc.,Not operational
+312,730,,Triangle Communication System Inc.,Not operational
+313,900,,Tribal Networks,Unknown
+313,730,,TruAccess Networks,Unknown
+312,490,,"TrustComm, Inc.",Not operational
+313,890,TCOE,Tulare County Office of Education,Operational
+310,860,Five Star Wireless,"TX RSA 15B2, LP",Not operational
+310,390,Cellular One of East Texas,"TX-11 Acquisition, LLC",Operational
+313,970,,Tychron,Unknown
+310,940,,Tyntec Inc.,Unknown
+310,960,STRATA,UBET Wireless,Not operational
+311,860,STRATA,Uintah Basin Electronic Telecommunications,Operational
+312,290,STRATA,Uintah Basin Electronic Telecommunications,Unknown
+310,20,Union Wireless,Union Telephone Company,Operational
+310,66,UScellular,United States Cellular Corporation,Operational
+310,730,UScellular,United States Cellular Corporation,Not operational
+311,220,UScellular,United States Cellular Corporation,Not operational
+311,225,UScellular,United States Cellular Corporation,Unknown
+311,228,UScellular,United States Cellular Corporation,Unknown
+311,229,UScellular,United States Cellular Corporation,Unknown
+311,580,UScellular,United States Cellular Corporation,Operational
+311,588,UScellular,United States Cellular Corporation,Unknown
+311,589,UScellular,United States Cellular Corporation,Unknown
+311,650,United Wireless,United Wireless,Operational
+311,400,Unknown,Unknown,Unknown
+314,490,UETN,Utah Education and Telehealth Network,Operational
+313,230,,Velocity Communications Inc.,Unknown
+310,4,Verizon,Verizon Wireless,Operational
+310,5,Verizon,Verizon Wireless,Not operational
+310,6,Verizon,Verizon Wireless,Operational
+310,10,Verizon,Verizon Wireless,Not operational
+310,12,Verizon,Verizon Wireless,Operational
+310,13,Verizon,Verizon Wireless,Unknown
+310,350,Verizon,Verizon Wireless,Not operational
+311,12,Verizon,Verizon Wireless,Not operational
+311,110,Verizon,Verizon Wireless,Unknown
+311,270,Verizon,Verizon Wireless,Unknown
+311,271,Verizon,Verizon Wireless,Unknown
+311,272,Verizon,Verizon Wireless,Unknown
+311,273,Verizon,Verizon Wireless,Unknown
+311,274,Verizon,Verizon Wireless,Unknown
+311,275,Verizon,Verizon Wireless,Unknown
+311,276,Verizon,Verizon Wireless,Unknown
+311,277,Verizon,Verizon Wireless,Unknown
+311,278,Verizon,Verizon Wireless,Unknown
+311,279,Verizon,Verizon Wireless,Unknown
+311,280,Verizon,Verizon Wireless,Unknown
+311,281,Verizon,Verizon Wireless,Unknown
+311,282,Verizon,Verizon Wireless,Unknown
+311,283,Verizon,Verizon Wireless,Unknown
+311,284,Verizon,Verizon Wireless,Unknown
+311,285,Verizon,Verizon Wireless,Unknown
+311,286,Verizon,Verizon Wireless,Unknown
+311,287,Verizon,Verizon Wireless,Unknown
+311,288,Verizon,Verizon Wireless,Unknown
+311,289,Verizon,Verizon Wireless,Unknown
+311,390,Verizon,Verizon Wireless,Unknown
+311,480,Verizon,Verizon Wireless,Operational
+311,481,Verizon,Verizon Wireless,Not operational
+311,482,Verizon,Verizon Wireless,Not operational
+311,483,Verizon,Verizon Wireless,Not operational
+311,484,Verizon,Verizon Wireless,Not operational
+311,485,Verizon,Verizon Wireless,Not operational
+311,486,Verizon,Verizon Wireless,Not operational
+311,487,Verizon,Verizon Wireless,Not operational
+311,488,Verizon,Verizon Wireless,Not operational
+311,489,Verizon,Verizon Wireless,Not operational
+311,590,Verizon,Verizon Wireless,Unknown
+312,770,Verizon,Verizon Wireless,Unknown
+310,590,,Verizon Wireless,Unknown
+310,591,,Verizon Wireless,Unknown
+310,592,,Verizon Wireless,Unknown
+310,593,,Verizon Wireless,Unknown
+310,594,,Verizon Wireless,Unknown
+310,595,,Verizon Wireless,Unknown
+310,596,,Verizon Wireless,Unknown
+310,597,,Verizon Wireless,Unknown
+310,598,,Verizon Wireless,Unknown
+310,599,,Verizon Wireless,Unknown
+310,820,,Verizon Wireless,Unknown
+310,890,,Verizon Wireless,Unknown
+310,891,,Verizon Wireless,Unknown
+310,892,,Verizon Wireless,Unknown
+310,893,,Verizon Wireless,Unknown
+310,894,,Verizon Wireless,Unknown
+310,895,,Verizon Wireless,Unknown
+310,896,,Verizon Wireless,Unknown
+310,897,,Verizon Wireless,Unknown
+310,898,,Verizon Wireless,Unknown
+310,899,,Verizon Wireless,Unknown
+310,910,,Verizon Wireless,Unknown
+311,440,,Verizon Wireless,Not operational
+311,800,,Verizon Wireless,Operational
+311,810,,Verizon Wireless,Operational
+310,450,Viaero,Viaero Wireless,Operational
+310,740,Viaero,Viaero Wireless,Operational
+311,470,Viya,Vitelcom Cellular Inc.,Operational
+313,90,,"Vivint Wireless, Inc.",Operational
+312,200,,Voyager Mobility LLC,Not operational
+311,990,,VTel Wireless,Operational
+313,810,,Watch Communications,Operational
+314,290,,Wave,Unknown
+312,940,,Webformix,Not operational
+310,180,West Central,West Central Wireless,Not operational
+312,360,,"Wes-Tex Telecommunications, Ltd.",Unknown
+311,150,,Wilkes Cellular,Not operational
+313,780,,Windstream Holdings,Unknown
+310,330,,"Wireless Partners, LLC",Unknown
+312,700,,"Wireless Partners, LLC",Operational
+313,800,,Wireless Technologies of Nebraska,Not operational
+310,420,World Mobile,"World Mobile Networks, LLC",Operational
+311,530,,WorldCell Solutions LLC,Operational
+312,260,,WorldCell Solutions LLC,Unknown
+312,510,,WUE Inc.,Unknown
+314,480,,Xcel Energy Services Inc.,Unknown
+314,200,,"XF Wireless Investments, LLC",Unknown
+314,240,,"XF Wireless Investments, LLC",Unknown
+310,660,T-Mobile,,Not operational
