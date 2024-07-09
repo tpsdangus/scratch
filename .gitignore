@@ -1,1 +1,5 @@
-GOOGLE_MAPS_KEY=AIzaSyDawqHxgmq2lAI3MiEV6w8xmUNxZnvjc48
+# Ignore environment file
+.env
+
+# Ignore actual API keys file
+config/api_keys.py
